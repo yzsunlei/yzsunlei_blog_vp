@@ -1,4 +1,10 @@
-﻿## 《响应式Web设计 HTML5和CSS3实战(第二版)》精读笔记
+﻿---
+title: 《响应式Web设计 HTML5和CSS3实战(第二版)》精读笔记
+description: 《响应式Web设计 HTML5和CSS3实战(第二版)》精读笔记，大前端学习笔记，小磊哥er的博客
+keywords: 《响应式Web设计 HTML5和CSS3实战(第二版)》精读笔记，大前端学习笔记，小磊哥er的博客
+--- 
+
+## 《响应式Web设计 HTML5和CSS3实战(第二版)》精读笔记
 
 ### 写在前面
 - 书籍介绍：本书主要讲解了如何运用HTML5和CSS3来进行响应式Web设计，使页面的设计与开发根据用户行为以及设备环境(系统平台、屏幕尺寸、屏幕定向等)来进行相应的响应和调整。
@@ -363,5 +369,5 @@
 
 ### 写在后面
 - pdf书籍、笔记思维导图、随书代码打包下载地址：[https://pan.baidu.com/s/1rZGRe0gzyEKiV9y5qmsgbg(提取码：fo49)](https://pan.baidu.com/s/1rZGRe0gzyEKiV9y5qmsgbg)
-- 思维导图在线查看：[点击打开](/bigfed_notes/attachment/A.《响应式Web设计_HTML5和CSS3实战》第二版_Ben_Frain_奇舞团.svg)
+- 思维导图在线查看：[点击打开](/attachment/A.《响应式Web设计_HTML5和CSS3实战》第二版_Ben_Frain_奇舞团.svg)
 - 得到电子书地址：[点击阅读](https://www.dedao.cn/eBook/VEDA2bKO27MKbRardAGJ1N4ln9BLVwg7nDw8ZQyXmYqg5PpkEjxovze6DB84dpj6)

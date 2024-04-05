@@ -1,4 +1,10 @@
-﻿## 《JavaScript异步编程》精读笔记
+﻿---
+title: 《JavaScript异步编程》精读笔记
+description: 《JavaScript异步编程》精读笔记，大前端学习笔记，小磊哥er的博客
+keywords: 《JavaScript异步编程》精读笔记，大前端学习笔记，小磊哥er的博客
+--- 
+
+## 《JavaScript异步编程》精读笔记
 
 ### 写在前面
 - 书籍介绍：《JavaScript异步编程》讲述基本的异步处理技巧，包括PubSub、事件模式、Promises等，通过这些技巧，可以更好的应对大型Web应用程序的复杂性，交互快速响应的代码。理解了JavaScript的异步模式可以让读者写出结构更合理、性能更出色、维护更方便的JavaScript程序。
@@ -163,5 +169,5 @@
 
 ### 写在后面
 - pdf书籍、笔记思维导图、随书代码打包下载地址：[https://pan.baidu.com/s/1myOqz7WNXeS9pwm-ovmMVg(提取码：vtzc)](https://pan.baidu.com/s/1myOqz7WNXeS9pwm-ovmMVg)
-- 思维导图在线查看：[点击打开](/bigfed_notes/attachment/E.《JavaScript异步编程》_Trevor_Burnham_许青松.svg)
+- 思维导图在线查看：[点击打开](/attachment/E.《JavaScript异步编程》_Trevor_Burnham_许青松.svg)
 - 得到电子书地址：[点击阅读](https://www.dedao.cn/eBook/XOnaYG1qlM7amvGYerDZOy9JVnXL40BmzOwBkp1NKxoRdb86P2Q5AzgEj9vE5rDo)

@@ -1,4 +1,10 @@
-## 《Docker技术入门与实战（第三版）》
+---
+title: 《Docker技术入门与实战（第三版）》精读笔记
+description: 《Docker技术入门与实战（第三版）》精读笔记，大前端学习笔记，小磊哥er的博客
+keywords: 《Docker技术入门与实战（第三版）》精读笔记，大前端学习笔记，小磊哥er的博客
+--- 
+
+## 《Docker技术入门与实战（第三版）》精读笔记
 
 ### 写在前面
 - 书籍介绍：本书从Docker基本原理开始，深入浅出地讲解Docker的构建与操作，内容系统全面，可帮助开发人员、运维人员快速部署Docker应用。
@@ -332,5 +338,5 @@
 
 ### 写在后面
 - pdf书籍、笔记思维导图、随书代码打包下载地址：暂无，后面补上
-- 思维导图在线查看：[点击打开](/bigfed_notes/attachment/L.《Docker技术入门与实战（ 第3版）》_杨保华等_201809.svg)
+- 思维导图在线查看：[点击打开](/attachment/L.《Docker技术入门与实战（ 第3版）》_杨保华等_201809.svg)
 - 得到电子书地址：[点击阅读](https://www.dedao.cn/ebook/2BeEdA94ma8x6VX2zLjQBNq5dKveMw18Aa3JZPAO1lGbpRyYgonDEr97kMoLmlba)

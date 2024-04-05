@@ -1,4 +1,10 @@
-## 《微服务设计》
+---
+title: 《微服务设计》精读笔记
+description: 《微服务设计》精读笔记，大前端学习笔记，小磊哥er的博客
+keywords: 《微服务设计》精读笔记，大前端学习笔记，小磊哥er的博客
+--- 
+
+## 《微服务设计》精读笔记
 
 ### 写在前面
 - 书籍介绍：本书主要内容包括认识微服务在保证系统设计与组织目标统一上的重要性，学会把服务集成到已有系统中，采用递增手段拆分单块大型应用，通过持续集成部署微服务，等等。
@@ -162,5 +168,5 @@
 
 ### 写在后面
 - pdf书籍、笔记思维导图、随书代码打包下载地址：暂无，后面补上
-- 思维导图在线查看：[点击打开](/bigfed_notes/attachment/L.《微服务设计》_SamNewMan_崔力强.svg)
+- 思维导图在线查看：[点击打开](/attachment/L.《微服务设计》_SamNewMan_崔力强.svg)
 - 得到电子书地址：[点击阅读](https://www.dedao.cn/ebook/A1De6QkaNRMlK5yxrdmnEBXY97ZL23n7NNwo6zvGDekj1QgA84VbpqJOPLgxEJlY)

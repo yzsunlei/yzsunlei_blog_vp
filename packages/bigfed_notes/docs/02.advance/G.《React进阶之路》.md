@@ -1,4 +1,10 @@
-﻿## 《React进阶之路》精读笔记
+﻿---
+title: 《React进阶之路》精读笔记
+description: 《React进阶之路》精读笔记，大前端学习笔记，小磊哥er的博客
+keywords: 《React进阶之路》精读笔记，大前端学习笔记，小磊哥er的博客
+--- 
+
+## 《React进阶之路》精读笔记
 
 ### 写在前面
 - 书籍介绍：《React进阶之路》详细介绍了React技术栈涉及的主要技术。本书分为基础篇、进阶篇和实战篇三部分。基础篇主要介绍React的基本用法，包括React 16的新特性；进阶篇深入讲解组件state、虚拟DOM、高阶组件等React中的重要概念，同时对初学者容易困惑的知识点做了介绍；实战篇介绍React Router、Redux和MobX 3个React技术栈的重要成员，并通过实战项目讲解这些技术如何和React结合使用。
@@ -172,5 +178,5 @@
 
 ### 写在后面
 - pdf书籍、笔记思维导图、随书代码打包下载地址：[https://pan.baidu.com/s/15g8dwBHcPJBVEmO7mlh52g(提取码：zfjg)](https://pan.baidu.com/s/15g8dwBHcPJBVEmO7mlh52g)
-- 思维导图在线查看：[点击打开](/bigfed_notes/attachment/E.《React进阶之路》_徐超.svg)
+- 思维导图在线查看：[点击打开](/attachment/E.《React进阶之路》_徐超.svg)
 - 得到电子书地址：无

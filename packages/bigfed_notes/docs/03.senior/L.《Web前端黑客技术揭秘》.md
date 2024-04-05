@@ -1,4 +1,10 @@
-﻿## 《Web前端黑客技术揭秘》精读笔记
+﻿---
+title: 《Web前端黑客技术揭秘》精读笔记
+description: 《Web前端黑客技术揭秘》精读笔记，大前端学习笔记，小磊哥er的博客
+keywords: 《Web前端黑客技术揭秘》精读笔记，大前端学习笔记，小磊哥er的博客
+--- 
+
+## 《Web前端黑客技术揭秘》精读笔记
 
 ### 写在前面
 - 书籍介绍：Web前端的黑客攻防技术是一门非常新颖且有趣的黑客技术，主要包含Web前端安全的跨站脚本（XSS）、跨站请求伪造（CSRF）、界面操作劫持这三个大类，涉及的知识点涵盖信任与信任关系、Cookie安全、Flash安全、DOM渲染、字符集、跨域、原生态攻击、高级钓鱼、蠕虫思想等，这些都是研究前端安全的人必备的知识点。本书作者深入剖析了许多经典的攻防技巧，并给出了许多独到的安全见解。
@@ -79,7 +85,7 @@
 - 参数传递
 - flash里的内嵌html：Flash内嵌HTML不能很随意，且支持的标签有限；
 - 与JavaScript通信：1.getURL()与navigateToURL()；2.ExternalInterface；
-- 网络通信：URLLoader与URLRequest组合进行文本数据的请求，这是AS3种绝佳的组合，GET/POST数据都很方便，如果仅是发送数据出去，而不需要得到响应，则直接用sendToURL函数+URLRequest组合；如果要使用socket请求，则可以使用Socket类或XMLSocket类；AMF（Action Message Format）是Flash和服务端通信的一种常见的二进制编码模式，其传输效率高，可以在HTTP层面上传输；分析了一些外挂，有专门模拟AMF消息进行各种恶意操作的；
+- 网络通信：URLLoader与URLRequest组合进行文本数据的请求，这是AS3种绝佳的组合，`GET/POST`数据都很方便，如果仅是发送数据出去，而不需要得到响应，则直接用sendToURL函数+URLRequest组合；如果要使用socket请求，则可以使用Socket类或XMLSocket类；AMF（Action Message Format）是Flash和服务端通信的一种常见的二进制编码模式，其传输效率高，可以在HTTP层面上传输；分析了一些外挂，有专门模拟AMF消息进行各种恶意操作的；
 - 其他安全问题：发现Flash的一些重要数据或逻辑运算直接在本地进行。这是错误的，通过一些流行的反编译工具（比如HP swfdump.exe等）就能得到ActionScript代码；牢记，重要的数据或运算不要在本地进行；
 
 ### 第三章 前端黑客之XSS
@@ -124,7 +130,7 @@
 
 #### 4.2.CSRF类型
 - 按照攻击方式来说，CSRF可分为：HTML CSRF攻击、JSON HiJacking攻击和Flash CSRF攻击等
-- HTML中能够设置src/href等链接地址的标签都可以发起一个GET请求
+- HTML中能够设置`src/href`等链接地址的标签都可以发起一个GET请求
 - 还有通过JavaScript动态生成的标签对象或CSS对象发起的GET请求，而发出POST请求只能通过form提交方式
 - Flash的世界同样遵循同源策略，发起的CSRF攻击是通过ActionScript脚本来完成的
 - 说到Flash CSRF，通常会想到以下两点：跨域获取隐私数据；跨域提交数据操作，一些如添加、删除、编辑等操作的请求
@@ -171,7 +177,7 @@
 - 自动化的XSS漏洞挖掘其实是很复杂的，难度也会很高。这和我们要实现的XSS漏洞挖掘工具的需求有关，是要效率（有了广度，却忽略了深度），还是要检出率（既有广度又有深度，漏洞个数多且准确度高）
 - 工具自动化的思路，是一种针对反射型XSS、存储型XSS、头部XSS、CookieXSS等比较普通的XSS漏洞挖掘思路
 - URL上的玄机：URL的一种常见组成模式：`<scheme>://<netloc>/<path>?<query>#<fragment>`；
-- HTML上的玄机：两类特殊的标签`<script>`和`<style>`，它们是不能嵌套标签的，而且payload构造情况会更灵活；同样有意思的场景，比如这三类：1.输出在src/href/action等属性内；2.输出在on*事件内；3.输出在style属性内；对IE来说，在标签的style属性中只要能注入expression关键词，并进行适当的闭合，我们就可以认为目标存在XSS；
+- HTML上的玄机：两类特殊的标签`<script>`和`<style>`，它们是不能嵌套标签的，而且payload构造情况会更灵活；同样有意思的场景，比如这三类：1.输出在`src/href/action`等属性内；2.输出在on*事件内；3.输出在style属性内；对IE来说，在标签的style属性中只要能注入expression关键词，并进行适当的闭合，我们就可以认为目标存在XSS；
 - 请求中的玄机：“探子请求”，在真正的payload攻击请求之前，总会发起一次无危害（不包含任何特殊符号）的请求，这个请求就像“探子”一样，来无影去无踪。不会被网站的过滤机制发现，就像一次正常的请求；“探子”的目的有以下两个（1.目标参数值是否会出现在响应上，如果不出现，就完全没必要进行后续的payload请求与分析；目标参数值出现在HTML的哪一个部分，从上面的分析我们已经知道，不同的HTML部分对待XSS的机制是不一样的，请求的payload当然也不一样）
 - 关于存储型xss挖掘：这里一般是表单的提交，然后进入服务端存储中，最终会在某个页面上输出
 
@@ -208,9 +214,9 @@
 #### 6.7.混淆的代码
 - 为了提高漏洞挖掘的成功率，我们经常需要对各种代码进行混淆，以绕过过滤机制
 - 浏览器的进制常识：在浏览器中常用的进制混淆有八进制、十进制和十六进制；在JavaScript中可以直接通过eval执行的字符串有八进制和十六进制两种编码方式；需要注意的是，这两种表示方式不能够直接给多字节字符编码（如汉字、韩文等），如果代码中应用了汉字并且进行进制编码，那么只能进行十六进制Unicode编码；JavaScript自身就带有两个函数可以处理这个事情：char.toString(jinzhi)（char为需要编码的单字，jinzhi为需要编码的进制，可以填写2、8、10、16或其他之类数字）、String.fromCharCode(code, jinzhi)；
-- 浏览器的编码常识：在JavaScript中，有三套编/解码的函数：escape/unescape、encodeURI/decodeURI、encodeURIComponent/decodeURIComponent；除了JavaScript提供的这三种加/解密方法外，我们还需要了解HTMLEncode、URLEncode、JSEncode、UTF-7编码、Base64编码的相关知识；
+- 浏览器的编码常识：在JavaScript中，有三套编(解)码的函数：`escape/unescape`、`encodeURI/decodeURI`、`encodeURIComponent/decodeURIComponent`；除了JavaScript提供的这三种加(解)密方法外，我们还需要了解HTMLEncode、URLEncode、JSEncode、UTF-7编码、Base64编码的相关知识；
 - html中的代码注入技巧：完整的HTML代码分为：标签名、属性名、属性值、文本、注释。其中可以是JavaScript事件、资源链接或data对象；1.标签：（由于HTML语言的松散性和各标签的不同优先级，使得我们可以创造出很多代码混淆或绕过方式；另外还有一种特殊的注释：IE HTML条件控制语句）；2.属性：（HTML标签中的属性同样也是大小写不敏感的，并且属性值可以用双引号引起来，也可以用单引号，甚至不用引号在HTML语法上也是正确的；此外，标签和属性之间、属性名和等号之间、等号和属性值之间可以用空格、换行符（chr(13)）、回车符（chr(10)）或者tab（chr(9)）等，并且个数不受限制；还有一个常识对我们来说非常重要，HTML中通过属性定义的事件在执行时会做HTMLDecode编码）；3.HTML事件（另一种特殊的HTML属性是事件属性，一般以on开头。它继承了普通的HTML属性的所有特点：大小写不敏感、引号不敏感等）
-- css中的代码注入技巧：与HTML一样，我们可以将CSS分为选择符、属性名、属性值、规则和声明几部分；与HTML类似，CSS的语法同样对大小写不敏感，属性值对单引号不敏感，对资源类属性来说，URL部分的单双引号以及没有引号也都不敏感，并且凡是可以使用空格的地方使用tab制表符、回车和换行也都是可以被浏览器解析；1.CSS资源类属性：（与HTML的资源类属性类似，CSS的一些资源类属性的XSS利用也是通过伪协议来完成的，这种利用方式目前只能在IE下被执行，并且IE9已经可以防御住；CSS还有一类资源类属性可以嵌入XML、CSS或者JavaScript，比如，Firefox2独有的-moz-binding、IE独有的behavior以及规则@import）；2.expression：（expression是IE所独有的CSS属性，其目的就是为了插入一段JavaScript代码）；3.利用UTF-7编码进行CSS代码混淆（介绍monyer在线加解密工具时，提过两个加/解密：UTF7Encode和UTF7Decode。将页面进行UTF7编码，这为混淆我们的代码、绕过u对方的过滤器提供了很大便利）
+- css中的代码注入技巧：与HTML一样，我们可以将CSS分为选择符、属性名、属性值、规则和声明几部分；与HTML类似，CSS的语法同样对大小写不敏感，属性值对单引号不敏感，对资源类属性来说，URL部分的单双引号以及没有引号也都不敏感，并且凡是可以使用空格的地方使用tab制表符、回车和换行也都是可以被浏览器解析；1.CSS资源类属性：（与HTML的资源类属性类似，CSS的一些资源类属性的XSS利用也是通过伪协议来完成的，这种利用方式目前只能在IE下被执行，并且IE9已经可以防御住；CSS还有一类资源类属性可以嵌入XML、CSS或者JavaScript，比如，Firefox2独有的-moz-binding、IE独有的behavior以及规则@import）；2.expression：（expression是IE所独有的CSS属性，其目的就是为了插入一段JavaScript代码）；3.利用UTF-7编码进行CSS代码混淆（介绍monyer在线加解密工具时，提过两个加(解)密：UTF7Encode和UTF7Decode。将页面进行UTF7编码，这为混淆我们的代码、绕过u对方的过滤器提供了很大便利）
 - JavaScript中的代码注入技巧
 - 突破url过滤：可以参考如下一些技巧来绕过过滤：URL编码、十进制、十六进制、八进制、混合编码、不带http:协议、最后加个点；
 - 更多经典的混淆checklist：通过大量的模糊测试可以发现很多奇怪的XSS利用点，浏览器之间存在大量细微的差异，很难总结出完美的规律；可以参考html5sec.org网站上整理的Checklist，还有一个由Gareth Heyes主导构建起来的在线fuzzing平台（shazzer.co.uk）；
@@ -223,7 +229,7 @@
 
 #### 7.1.渗透前的准备
 - 1.目标环境：对于开源CMS的渗透，可以通过白盒、黑盒 方式了解透，大大方便后续的渗透。而对于闭源的CMS，我们只能利用黑盒进行，会更麻烦，需多走几个步骤
-- 2.目标用户：目标用户的角色可以很多种，如：CMS管理员、客服、普通用户、黑客/安全人员等
+- 2.目标用户：目标用户的角色可以很多种，如：CMS管理员、客服、普通用户、黑客或安全人员等
 - 3.预期效果：最后明确本次渗透过程中每一阶段的效果，如：获取Cookie、添加一篇文章、传播网马、盗取密码、破坏数据等
 
 #### 7.2.偷取隐私数据
@@ -279,7 +285,7 @@
 
 #### 8.3.HTML5下的僵尸网络
 - 僵尸网络（英文名为Botnet）是指，通过各种手段在大量的计算机中植入特定的恶意程序，使控制着能够通过相对集中的若干计算机直接向大量计算机发送指令的攻击网络
-- web worker的使用：HTML5中的Web Worker可以让Web应用程序具备后台处理能力，比如，让Worker进行并行计算、后台I/O操作等，而且对多线程支持非常好；Web Worker不会导致浏览器UI停止响应，短暂的Worker操作不会让用户察觉，但如果是长时间大量的Worker运算操作，则会消耗CPU周期，使系统变慢，用户可能看到CPU始终保持在高位；
+- web worker的使用：HTML5中的Web Worker可以让Web应用程序具备后台处理能力，比如，让Worker进行并行计算、后台`I/O`操作等，而且对多线程支持非常好；Web Worker不会导致浏览器UI停止响应，短暂的Worker操作不会让用户察觉，但如果是长时间大量的Worker运算操作，则会消耗CPU周期，使系统变慢，用户可能看到CPU始终保持在高位；
 - cors向任意网站发送跨域请求：CORS的安全策略仅仅在于是否允许客户端获取服务器的返回数据，但并不会阻止客户端发送的请求
 - 一个html5僵尸网络实例：如何控制更多的僵尸节点？蠕虫可以将被感染的用户浏览器变成僵尸节点
 
@@ -309,16 +315,16 @@
 
 #### 9.4.ClickJacking蠕虫
 - ClickJacking蠕虫的由来：2009年初Twitter上发生的“Don't Click”蠕虫事件；
-- ClickJacking蠕虫技术原理分析：技术分析：首先，攻击者使用ClickJacking技术制作蠕虫页面，该页面的URL地址使用TINYURL短地址转http://tinyurl.com/amgzs6；设计要点：对iframe和button标签进行CSS样式设定，放置iframe标签所在层为透明层，使iframe标签所在层位于button标签所在层的正上方；要发动ClickJacking蠕虫攻击，满足以下两点必要条件即可（在SNS社区网络中，找到一个可以直接使用HTTP的GET方式提交数据的页面；这个页面可以被`<iframe>`标签包含；）
+- ClickJacking蠕虫技术原理分析：技术分析：首先，攻击者使用ClickJacking技术制作蠕虫页面，该页面的URL地址使用TINYURL短地址转`http://tinyurl.com/amgzs6`；设计要点：对iframe和button标签进行CSS样式设定，放置iframe标签所在层为透明层，使iframe标签所在层位于button标签所在层的正上方；要发动ClickJacking蠕虫攻击，满足以下两点必要条件即可（在SNS社区网络中，找到一个可以直接使用HTTP的GET方式提交数据的页面；这个页面可以被`<iframe>`标签包含；）
 - Facebook的LikeJacking蠕虫：Facebook遭遇的LikeJacking蠕虫攻击；Facebook中有一项插件服务，叫“Like Button”。用户可以在自己的博客或自己的网站中加入“Like Button”，访客浏览时，可以单击这个按钮表示自己喜欢这篇文章。当单击结束后，访客点击的状态信息会在访客的Facebook页面上以状态更新的方式显示出来；攻击者可以使用ClickJacking技术欺骗访客单击这个“Like Button”；
 - GoogleReader的ShareJacking蠕虫：非常流行的“一键分享”功能插件；这种插件可以让用户把在网络中看到的好文章或好资源直接以广播消息的形式发布到自己的社区和好友们进行分享；除了发现Google Reader存在ShareJacking蠕虫攻击外，还发现国内SNS环境中腾讯微博、腾讯空间、腾讯朋友、搜狐微博、人人网、淘江湖均存在这种攻击；
-- ClickJacking蠕虫爆发的可能性：分享已经是当前SNS网络中一个很重要的社交内容。只要是带有共享性质的网络社区，都有可能会遭受到ClickJacking蠕虫的攻击；Twitter的一键分享页面http://twitter.com/intent/tweet已经在HTTP头关键字中加入X-FRAME-OPTIONS来抵御ClickJacking攻击，Facebook的一键分享页面http://www.facebook.com/sharer/sharer.php中也使用了Frame Busting脚本来进行抵御；
+- ClickJacking蠕虫爆发的可能性：分享已经是当前SNS网络中一个很重要的社交内容。只要是带有共享性质的网络社区，都有可能会遭受到ClickJacking蠕虫的攻击；Twitter的一键分享页面`http://twitter.com/intent/tweet`已经在HTTP头关键字中加入X-FRAME-OPTIONS来抵御ClickJacking攻击，Facebook的一键分享页面`http://www.facebook.com/sharer/sharer.php`中也使用了Frame Busting脚本来进行抵御；
 
 ### 第十章 关于防御
 
 #### 10.1.浏览器厂商的防御
 - HTTP响应的X-头部：HTTP响应的扩展头部字段都以X-打头，用于区分标准的头部字段；与前端安全有关的头部字段有如下几个：X-Frame-Options、X-XSS-Protection、X-Content-Security-Policy；1.X-Frame-Options的值有以下两个：DENY（禁止被加载进任何frame）、SAMEORIGIN（仅允许被加载进同域内的frame）；2.X-XSS-Protection的值有以下三个：0（表示禁用）、1（默认，对危险脚本做一些标志或修改，以阻止在浏览器上渲染执行，Chrome和IE这方面的行为是有差异的）、1:mode=block（强制不渲染，在Chrome下直接跳转到空白页，在IE下返回一个#符号）；
-- 迟到的CSP策略：前面提到Web前端混乱局面，比如IE下的CSS的expression可以写JavaScript，再如，HTML的标签`<script>`、标签on事件、标签style属性、标签src/href/action等属性都可以内嵌JavaScript执行；HTML仅做HTML的事，JavaScript/CSS都通过加载独立文件的方式被执行。JavaScript/CSS独立文件所在的域可以配置为白名单，这样就能有效地防止加载攻击者域上的相关资源文件。这大大提高了XSS攻击的难度，这就是CSP策略的最大设计初衷；CSP策略使得Web前端更有序，从而更安全，这是一个好趋势，W3C已经在大力推进这样的策略；目前，Chrome支持CSP策略的头部是X-WebKit-CSP，而不是标准的X-Content-Security-Policy；下面举几个应用CSP的场景（1、不允许任何外部的资源加载，且允许内嵌脚本执行；2、仅允许白名单的外部资源加载，不允许内嵌脚本执行；）
+- 迟到的CSP策略：前面提到Web前端混乱局面，比如IE下的CSS的expression可以写JavaScript，再如，HTML的标签`<script>`、标签on事件、标签style属性、标签`src/href/action`等属性都可以内嵌JavaScript执行；HTML仅做HTML的事，`JavaScript/CSS`都通过加载独立文件的方式被执行。`JavaScript/CSS`独立文件所在的域可以配置为白名单，这样就能有效地防止加载攻击者域上的相关资源文件。这大大提高了XSS攻击的难度，这就是CSP策略的最大设计初衷；CSP策略使得Web前端更有序，从而更安全，这是一个好趋势，W3C已经在大力推进这样的策略；目前，Chrome支持CSP策略的头部是X-WebKit-CSP，而不是标准的X-Content-Security-Policy；下面举几个应用CSP的场景（1、不允许任何外部的资源加载，且允许内嵌脚本执行；2、仅允许白名单的外部资源加载，不允许内嵌脚本执行；）
 
 #### 10.2.Web厂商的防御
 - 域分离：域分离做得好的可以参考Google，Google将一些业务关联性小的内容转移到了不相干的域中
@@ -339,5 +345,5 @@
 
 ### 写在后面
 - pdf书籍、笔记思维导图、随书代码打包下载地址：[https://pan.baidu.com/s/1qVEU2uaPPhGTg7tNii7U7w(提取码：tvxh)](https://pan.baidu.com/s/1qVEU2uaPPhGTg7tNii7U7w)
-- 思维导图在线查看：[点击打开](/bigfed_notes/attachment/L.《Web前端黑客技术揭秘》_钟晨鸣.svg)
+- 思维导图在线查看：[点击打开](/attachment/L.《Web前端黑客技术揭秘》_钟晨鸣.svg)
 - 得到电子书地址：无

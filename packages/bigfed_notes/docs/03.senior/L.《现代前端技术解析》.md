@@ -1,3 +1,9 @@
+---
+title: 《现代前端技术解析》精读笔记
+description: 《现代前端技术解析》精读笔记，大前端学习笔记，小磊哥er的博客
+keywords: 《现代前端技术解析》精读笔记，大前端学习笔记，小磊哥er的博客
+--- 
+
 ## 《现代前端技术解析》精读笔记
 
 ### 写在前面
@@ -8,7 +14,7 @@
 ### 第1章 Web前端技术基础
 
 #### 1.1.现代Web前端技术发展概述
-- 1. 前端开发模式先后经历了静态黄页时期、服务器组装动态网页数据时期、后端为主的MVC（Model-View-Controller，一种数据模型、视图、逻辑分离的开发模式）模式时期、前后端分离方案开发时期、纯前端MV*（Model-View-*，数据模型、视图、控制方式分离的开发设计方式，这里的控制方式有多种实现方法，所以一般用*代替）为主与中间层直出的时期，最后进入到前端Virtual DOM（虚拟DOM，用来描述页面DOM树节点之间关系的一种特殊JavaScript对象）、MNV*（Model-NativeView-*，数据模型、原生视图、控制方式分离的开发设计模式，这里的控制方式也可以有多种实现方法，所以用*代替）模式以及前后端同构的开发时代
+- 1. 前端开发模式先后经历了静态黄页时期、服务器组装动态网页数据时期、后端为主的MVC（Model-View-Controller，一种数据模型、视图、逻辑分离的开发模式）模式时期、前后端分离方案开发时期、纯前端MV*（Model-View-*，数据模型、视图、控制方式分离的开发设计方式，这里的控制方式有多种实现方法，所以一般用*代替）为主与中间层直出的时期，最后进入到前端Virtual DOM（虚拟DOM，用来描述页面DOM树节点之间关系的一种特殊JavaScript对象）、`MNV*（Model-NativeView-*`，数据模型、原生视图、控制方式分离的开发设计模式，这里的控制方式也可以有多种实现方法，所以用*代替）模式以及前后端同构的开发时代
 - 2. 从以下几个方面来思考：页面内容多而复杂，怎样保证开发效率；页面内容多且复杂，项目的管理和维护该如何去做；页面加载的内容很多，怎样保证尽快将网页内容显示给用户；怎样限制页面内图片的大小以保证页面快速展示；对于重复打开的页面，能否让浏览器不再向服务器请求重复的内容；如果页面地址在移动端浏览器打开，又该怎么处理；
 - 3. 前端结构的开发实现模式先后经历了静态黄页时期、服务器组装动态网页数据时期、后端为主的MVC模式时期、前后端分离时期、纯前端MV*为主和中间层直出时期、前端Virtual DOM、MNV*、前后端同构时期
 
@@ -112,7 +118,7 @@
 #### 3.6.前端界面技术
 - 1. 通常前端中，实现动画的方案主要有6种：JavaScript直接实现动画、可伸缩矢量图形（Scalable Vector Graphics, SVG）动画、CSS3 transition、CSS3 animation、Canvas动画、requestAnimationFrame。
 - 2. JavaScript直接实现动画：主要思想是通过 JavaScript 的setInterval方法或setTimeout方法的回调函数来持续调用改变某个元素的CSS样式以达到元素样式持续变化的结果
-- 3. SVG 动画由SVG 元素内部的元素属性控制，通常通过<set>、<animate>、<animateColor>、<animateTransform>、<animateMotion>这几个元素来实现。
+- 3. SVG 动画由SVG 元素内部的元素属性控制，通常通过`<set>`、`<animate>`、`<animateColor>`、`<animateTransform>`、`<animateMotion>`这几个元素来实现。
 - 4. CSS3 animation的动画则可以认为是真正意义上页面内容的CSS3动画，通过对关键帧和循环次数的控制，页面标签元素会根据设定好的样式改变进行平滑过渡，而且关键帧状态的控制一般是通过百分比来控制的，这样我们就可以在这个过程中实现很多动画的动作了
 - 5. Canvas动画的实现思路和SVG的思路有点类似，都是借助元素标签来达到页面动画的效果，都需要借助对应的一套API来实现，不过SVG的API可以认为主要是通过SVG元素内部的配置规则来实现的，而Canvas则是通过JavaScript API来实现的。
 - 6. requestAnimationFrame是前端表现层实现动画的另一种API实现，它的原理和setTimeout及 setInterval 类似，都是通过 JavaScript 持续循环的方法调用来触发动画动作的，但是requestAnimationFrame 是浏览器针对动画专门优化而形成的 API，在实现动画方面性能比setTimeout及setInterval要好，可以将动画每一步的操作方法传入到requestAnimationFrame中，在每一次执行完后进行异步回调来连续触发动画效果
@@ -240,5 +246,5 @@
 
 ### 写在后面
 - pdf书籍、笔记思维导图、随书代码打包下载地址：后面补上
-- 思维导图在线查看：[点击打开](/bigfed_notes/attachment/L.《现代前端技术解析》_张成文_201704.svg)
+- 思维导图在线查看：[点击打开](/attachment/L.《现代前端技术解析》_张成文_201704.svg)
 - 得到电子书地址：[点击阅读](https://www.dedao.cn/eBook/ekM2z5Kexap9AKyJEz8DOYn6GNrV20KYlE3dgbRXq1Qvlj7P5ZmoMkLB47y6ONAv)

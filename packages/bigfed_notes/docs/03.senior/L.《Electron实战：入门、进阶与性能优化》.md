@@ -1,4 +1,10 @@
-﻿## 《Electron实战：入门、进阶与性能优化》精读笔记
+﻿---
+title: 《Electron实战：入门、进阶与性能优化》精读笔记
+description: 《Electron实战：入门、进阶与性能优化》精读笔记，大前端学习笔记，小磊哥er的博客
+keywords: 《Electron实战：入门、进阶与性能优化》精读笔记，大前端学习笔记，小磊哥er的博客
+--- 
+
+## 《Electron实战：入门、进阶与性能优化》精读笔记
 
 ### 写在前面
 - 书籍介绍：本书以实战为导向，讲解了如何用Electron结合现代前端技术来开发桌面应用。不仅全面介绍了Electron入门需要掌握的功能和原理，而且还针对Electron开发中的重点和难点进行了重点讲解，旨在帮助读者实现快速进阶。
@@ -287,5 +293,5 @@
 
 ### 写在后面
 - pdf书籍、笔记思维导图、随书代码打包下载地址：后面补上
-- 思维导图在线查看：[点击打开](/bigfed_notes/attachment/L.《Electron实战：入门、进阶与性能优化》.svg)
-- 得到电子书地址：[点击阅读]()
+- 思维导图在线查看：[点击打开](/attachment/L.《Electron实战：入门、进阶与性能优化》.svg)
+- 得到电子书地址：[点击阅读](https://www.dedao.cn/ebook/detail?id=xGM6Evn5byxq2PnXBz71AjZaol6R8WJL5awOKpGkd4gmMLEJrYNQe9VvD8P4jLkK)

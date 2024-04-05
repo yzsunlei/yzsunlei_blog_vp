@@ -1,4 +1,10 @@
-﻿## 《JavaScript设计模式与开发实践》精读笔记
+﻿---
+title: 《JavaScript设计模式与开发实践》精读笔记
+description: 《JavaScript设计模式与开发实践》精读笔记，大前端学习笔记，小磊哥er的博客
+keywords: 《JavaScript设计模式与开发实践》精读笔记，大前端学习笔记，小磊哥er的博客
+--- 
+
+## 《JavaScript设计模式与开发实践》精读笔记
 
 ### 写在前面
 - 书籍介绍：本书在尊重《设计模式》原意的同时，针对JavaScript语言特性全面介绍了更适合JavaScript程序员的了16个常用的设计模式，讲解了JavaScript面向对象和函数式编程方面的基础知识，介绍了面向对象的设计原则及其在设计模式中的体现，还分享了面向对象编程技巧和日常开发中的代码重构。本书将教会你如何把经典的设计模式应用到JavaScript语言中，编写出优美高效、结构化和可维护的代码。
@@ -723,5 +729,5 @@
 
 ### 写在后面
 - pdf书籍、笔记思维导图、随书代码打包下载地址：[https://pan.baidu.com/s/17QLgFO2zcTBJNKCJz05Lsg(提取码：j29j)](https://pan.baidu.com/s/17QLgFO2zcTBJNKCJz05Lsg)
-- 思维导图在线查看：[点击打开](/bigfed_notes/attachment/E.《JavaScript设计模式与开发实践》_曾探.svg)
+- 思维导图在线查看：[点击打开](/attachment/E.《JavaScript设计模式与开发实践》_曾探.svg)
 - 得到电子书地址：无

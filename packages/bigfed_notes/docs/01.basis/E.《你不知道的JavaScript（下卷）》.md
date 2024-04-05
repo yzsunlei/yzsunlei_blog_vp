@@ -1,4 +1,10 @@
-﻿## 《你不知道的JavaScript（下卷）》精读笔记
+﻿---
+title: 《你不知道的JavaScript（下卷）》精读笔记
+description: 《你不知道的JavaScript（下卷）》精读笔记，大前端学习笔记，小磊哥er的博客
+keywords: 《你不知道的JavaScript（下卷）》精读笔记，大前端学习笔记，小磊哥er的博客
+--- 
+
+## 《你不知道的JavaScript（下卷）》精读笔记
 
 ### 写在前面
 - 书籍介绍：JavaScript这门语言简单易用，很容易上手，但其语言机制复杂微妙，即使是经验丰富的JavaScript开发人员，如果没有认真学习的话也无法真正理解。本套书直面当前JavaScript开发人员不求甚解的大趋势，深入理解语言内部的机制，全面介绍了JavaScript中常被人误解和忽视的重要知识点。
@@ -314,5 +320,5 @@
 
 ### 写在后面
 - pdf书籍、笔记思维导图、随书代码打包下载地址：[https://pan.baidu.com/s/1ei5ya29OlvFPlMV53I8ZXA(提取码：dcqo)](https://pan.baidu.com/s/1ei5ya29OlvFPlMV53I8ZXA)
-- 思维导图在线查看：[点击打开](/bigfed_notes/attachment/E.《你不知道的JavaScript（下卷）》_Kyle_Simpson_单业.svg)
+- 思维导图在线查看：[点击打开](/attachment/E.《你不知道的JavaScript（下卷）》_Kyle_Simpson_单业.svg)
 - 得到电子书地址：[点击阅读](https://www.dedao.cn/eBook/kQX7yD4MVoN52PDAnlRdzK6qvg8XEwbYO53ZJjBb7rO4ypxGa9LeQm1kYng9YzK5)

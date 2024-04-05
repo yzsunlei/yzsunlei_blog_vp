@@ -1,4 +1,10 @@
-## 《深入浅出Serverless-技术原理与应用实践》
+---
+title: 《深入浅出Serverless-技术原理与应用实践》精读笔记
+description: 《深入浅出Serverless-技术原理与应用实践》精读笔记，大前端学习笔记，小磊哥er的博客
+keywords: 《深入浅出Serverless-技术原理与应用实践》精读笔记，大前端学习笔记，小磊哥er的博客
+--- 
+
+## 《深入浅出Serverless-技术原理与应用实践》精读笔记
 
 ### 写在前面
 - 书籍介绍：本书详细介绍Serverless的技术原理、应用架构，以及与之相关的各种技术主题，而且深入讲解了公有云和私有云下的各种主流Serverless平台、架构和工具的原理、架构和使用细节。
@@ -240,5 +246,5 @@
 
 ### 写在后面
 - pdf书籍、笔记思维导图、随书代码打包下载地址：暂无，后面补上
-- 思维导图在线查看：[点击打开](/bigfed_notes/attachment/L.《深入浅出Serverless-技术原理与应用实践》_陈耿_202003.svg)
+- 思维导图在线查看：[点击打开](/attachment/L.《深入浅出Serverless-技术原理与应用实践》_陈耿_202003.svg)
 - 得到电子书地址：[点击阅读](https://www.dedao.cn/ebook/5kMLgX2vKGy7x5M8YRoDQbLgqkEeAw2ZazwBNn2r6ljVPO1mX9ad4JZpzZn1RbeE)

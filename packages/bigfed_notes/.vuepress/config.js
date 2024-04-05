@@ -1,6 +1,7 @@
 module.exports = {
   base: "/bigfed_notes/",
   title: "小磊哥er的大前端学习笔记",
+  srcDir: "./docs",
   themeConfig: {
     nav: [
       {
@@ -32,7 +33,7 @@ module.exports = {
           { text: 'J.《React_Native精解与实战》', link: '/bigfed_notes/02.advance/J.《React_Native精解与实战》.html', target:'_blank' },
           { text: 'J.《React_Native移动开发实战》', link: '/bigfed_notes/02.advance/J.《React_Native移动开发实战》.html', target:'_blank' },
           { text: 'K.《深入浅出Node.js》', link: '/bigfed_notes/02.advance/K.《深入浅出Node.js》.html', target:'_blank' },
-          { text: 'K.《Koa与Node.js开发实战》', link: '/bigfed_notes/02.a d/K.《Koa与Node.js开发实战》.html', target:'_blank' },
+          { text: 'K.《Koa与Node.js开发实战》', link: '/bigfed_notes/02.advance/K.《Koa与Node.js开发实战》.html', target:'_blank' },
         ],
       },
       {
@@ -57,10 +58,11 @@ module.exports = {
         items: [
           { text: '01.数据结构', link: '/bigfed_notes/04.classify/01.数据结构.html', target:'_blank'},
           { text: '02.基本算法', link: '/bigfed_notes/04.classify/02.基本算法.html', target:'_blank'},
-          { text: '03.布局渲染', link: '/bigfed_notes/04.classify/03.布局渲染.html', target:'_blank'},
-          { text: '04.JS核心', link: '/bigfed_notes/04.classify/04.JS核心.html', target:'_blank'},
+          { text: '03.网页布局', link: '/bigfed_notes/04.classify/03.网页布局.html', target:'_blank'},
+          { text: '04.JS核心知识', link: '/bigfed_notes/04.classify/04.JS核心知识.html', target:'_blank'},
           { text: '05.JS函数手写', link: '/bigfed_notes/04.classify/05.JS函数手写.html', target:'_blank'},
           { text: '06.JS设计模式', link: '/bigfed_notes/04.classify/06.JS设计模式.html', target:'_blank'},
+          { text: '07.浏览器渲染', link: '/bigfed_notes/04.classify/07.浏览器渲染.html', target:'_blank'},
         ]
       }
     ],

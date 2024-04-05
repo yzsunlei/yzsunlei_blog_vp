@@ -1,4 +1,10 @@
-## 《DevOps和自动化运维实践》
+---
+title: 《DevOps和自动化运维实践》精读笔记
+description: 《DevOps和自动化运维实践》精读笔记，大前端学习笔记，小磊哥er的博客
+keywords: 《DevOps和自动化运维实践》精读笔记，大前端学习笔记，小磊哥er的博客
+--- 
+
+## 《DevOps和自动化运维实践》精读笔记
 
 ### 写在前面
 - 书籍介绍：本书涉及大量的DevOps及自动化运维知识点和专业术语，全书共分8章，分别介绍了DevOps与自动化运维在运维中的意义和存在的必要性、生产环境下的Shell脚本、Python在DevOps与自动化运维中的应用、搭建自动化分布式虚拟环境的Vagrant、自动化运维工具Farbic、分布式自动化运维工具Ansible、自动化配置管理工具SaltStack，以及自动化运维中的后续思考等内容。
@@ -335,5 +341,5 @@
 
 ### 写在后面
 - pdf书籍、笔记思维导图、随书代码打包下载地址：暂无，后面补上
-- 思维导图在线查看：[点击打开](/bigfed_notes/attachment/L.《DevOps和自动化运维实践》_余洪春_201810.svg)
+- 思维导图在线查看：[点击打开](/attachment/L.《DevOps和自动化运维实践》_余洪春_201810.svg)
 - 得到电子书地址：[点击阅读](https://www.dedao.cn/eBook/Z1GDBjp8o9nDz1NZyd5MXvBj6RKEVwNqlK3Ap4aGOkJmYQrLbP7e2glqxl9qNPeX)
