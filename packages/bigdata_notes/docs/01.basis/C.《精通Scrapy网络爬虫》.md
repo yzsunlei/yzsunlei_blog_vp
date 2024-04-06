@@ -1,3 +1,10 @@
+---
+title: 《精通Scrapy网络爬虫》阅读笔记
+description: 《精通Scrapy网络爬虫》阅读笔记，大数智学习笔记，小磊哥er的博客
+keywords: 《精通Scrapy网络爬虫》阅读笔记，大数智学习笔记，小磊哥er的博客
+--- 
+
+# 《精通Scrapy网络爬虫》阅读笔记
 
 ### 写在前面
 - 书籍介绍：暂无。
@@ -291,5 +298,5 @@
 
 ### 写在后面
 - pdf书籍、笔记思维导图、资料打包下载地址：暂无
-- 思维导图在线查看：[点击打开](/bigdata_notes/attachment/C.《精通Scrapy网络爬虫》.svg)
+- 思维导图在线查看：[点击打开](/attachment/C.《精通Scrapy网络爬虫》.svg)
 - 得到电子书地址：暂无
