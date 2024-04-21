@@ -27,7 +27,7 @@ export default defineConfig({
   srcDir: "./docs",
   head: [
     ["link", { rel: "icon", href: "/favicon.ico" }],
-    ["meta", { name: "keywords", content: "大前端书籍,大前端学习笔记,小磊哥er的博客" }],
+    ["meta", { name: "keywords", content: "大前端书籍,大前端学习笔记,大前端技术博客,小磊哥er,小磊哥er的博客" }],
     ...(scripts as any[])
   ],
   sitemap: {
