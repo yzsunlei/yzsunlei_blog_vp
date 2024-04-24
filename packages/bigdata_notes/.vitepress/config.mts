@@ -1,23 +1,31 @@
-import { defineConfig } from 'vitepress'
-import categories from './categories'
+import { defineConfig } from "vitepress";
+import categories from "./categories";
 
-const jsScripts: any[] = [];
-const scripts = jsScripts?.map(it => {
-  if (it?.type === "src") {
-    return [
-      'script',
-      { async: '', src: it?.src }
-    ];
-  } else if (it?.type === "text") {
-    return [
-      'script',
-      {},
-      it?.content
-    ]
-  } else {
-    return null;
-  }
-}).filter(Boolean);
+const jsScripts: any[] = [
+  {
+    type: "text",
+    content: `
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?b0564a411a912e4e7f133b80078eeeab";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+      })();
+    `,
+  },
+];
+const scripts = jsScripts
+  ?.map((it) => {
+    if (it?.type === "src") {
+      return ["script", { async: "", src: it?.src }];
+    } else if (it?.type === "text") {
+      return ["script", {}, it?.content];
+    } else {
+      return null;
+    }
+  })
+  .filter(Boolean);
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -27,18 +35,21 @@ export default defineConfig({
   srcDir: "./docs",
   head: [
     ["link", { rel: "icon", href: "/favicon.ico" }],
-    ["meta", { name: "keywords", content: "大数智书籍,大数智学习笔记,小磊哥er的博客" }],
-    ...(scripts as any[])
+    [
+      "meta",
+      { name: "keywords", content: "大数智书籍,大数智学习笔记,小磊哥er的博客" },
+    ],
+    ...(scripts as any[]),
   ],
   sitemap: {
-    hostname: `https://www.yzsunlei.com/bigdata_notes_vp/`
+    hostname: `https://www.yzsunlei.com/bigdata_notes_vp/`,
   },
   themeConfig: {
     returnToTopLabel: "返回顶部",
     sidebarMenuLabel: "所有分类",
     outline: {
       level: 3,
-      label: "本篇导航"
+      label: "本篇导航",
     },
     // https://vitepress.dev/reference/default-theme-config
     // nav: [
@@ -69,15 +80,13 @@ export default defineConfig({
       {
         text: "返回主站",
         link: "https://www.yzsunlei.com",
-      }
+      },
     ],
 
-    sidebar: [
-      ...categories
-    ],
+    sidebar: [...categories],
 
     footer: {
-      copyright: "MIT Licensed | Copyright © 2024-present 小磊哥er"
-    }
-  }
-})
+      copyright: "MIT Licensed | Copyright © 2024-present 小磊哥er",
+    },
+  },
+});
