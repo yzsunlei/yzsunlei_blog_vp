@@ -87,7 +87,17 @@ export default defineConfig({
       },
     ],
 
-    sidebar: [...categories],
+    sidebar: [
+      {
+        text: "写在前面",
+        link: "/preface.html",
+      },
+      ...categories,
+      {
+        text: "写在后面",
+        link: "/postscript.html",
+      },
+    ],
 
     footer: {
       copyright: "MIT Licensed | Copyright © 2024-present 小磊哥er",
