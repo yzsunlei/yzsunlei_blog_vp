@@ -30,7 +30,7 @@ const scripts = jsScripts
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: "/bigfed_serverless_vp/",
-  title: "小磊哥er的大前端Serverless专题",
+  title: "小磊哥er的Serverless专题",
   description: "小磊哥er的大前端Serverless专题",
   srcDir: "./docs",
   head: [
@@ -52,7 +52,7 @@ export default defineConfig({
     returnToTopLabel: "返回顶部",
     sidebarMenuLabel: "所有分类",
     outline: {
-      level: 3,
+      level: [2, 3],
       label: "本篇导航",
     },
     // https://vitepress.dev/reference/default-theme-config
