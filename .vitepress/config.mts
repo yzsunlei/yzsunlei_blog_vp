@@ -42,6 +42,7 @@ export default defineConfig({
   sitemap: {
     hostname: `https://www.yzsunlei.com/`,
   },
+  metaChunk: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -71,7 +72,7 @@ export default defineConfig({
       {
         text: "更多链接",
         items: [
-          { text: "旧版博客(2023版)", link: "http://2023.yzsunlei.com/", target: "blank" },
+          { text: "旧版博客(2023版)", link: "http://www.yzsunlei.com/index-2023.html", target: "blank" },
           { text: "旧版博客(2020版)", link: "http://2020.yzsunlei.com/", target: "blank" },
           { text: "旧版前端笔记(2020版)", link: "http://notes.yzsunlei.com/", target: "blank" },
           { text: "《JavaScript并发编程》书籍翻译", link: "https://javascript-concurrency.gitbook.io/javascript-concurrency", target: "blank" },
