@@ -49,23 +49,32 @@ export default defineConfig({
       {
         text: "大前端",
         items: [
-          { text: "大前端学习笔记", link: "/bigfed_notes_vp" },
-          { text: "大前端技术导航", link: "/bigfed_nav_vp" },
-          { text: "大前端Serverless专题", link: "/bigfed_serverless_vp" },
+          { text: "大前端学习笔记", link: "/bigfed_notes_vp/" },
+          { text: "大前端技术导航", link: "/bigfed_nav_vp/" },
+          { text: "大前端Serverless专题", link: "/bigfed_serverless_vp/" },
         ],
       },
       {
         text: "大数智",
         items: [
-          { text: "大数智学习笔记", link: "/bigdata_notes_vp" },
-          { text: "大数智技术导航", link: "/bigdata_nav_vp" },
-          { text: "大数智办公自动化专题", link: "/bigdata_automation_vp" },
+          { text: "大数智学习笔记", link: "/bigdata_notes_vp/" },
+          { text: "大数智技术导航", link: "/bigdata_nav_vp/" },
+          { text: "大数智办公自动化专题", link: "/bigdata_automation_vp/" },
         ],
       },
       {
         text: "软技能",
         items: [
-          { text: "软技能学习笔记", link: "/softskill_notes_vp" },
+          { text: "软技能学习笔记", link: "/softskill_notes_vp/" },
+        ],
+      },
+      {
+        text: "更多链接",
+        items: [
+          { text: "旧版博客(2023版)", link: "http://2023.yzsunlei.com/", target: "blank" },
+          { text: "旧版博客(2020版)", link: "http://2020.yzsunlei.com/", target: "blank" },
+          { text: "旧版前端笔记(2020版)", link: "http://notes.yzsunlei.com/", target: "blank" },
+          { text: "《JavaScript并发编程》书籍翻译", link: "https://javascript-concurrency.gitbook.io/javascript-concurrency", target: "blank" },
         ],
       },
     ],
