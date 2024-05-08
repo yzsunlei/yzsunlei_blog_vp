@@ -30,7 +30,7 @@ const scripts = jsScripts
 export default defineConfig({
   title: "小磊哥er的博客",
   description: "专注于大前端和大数智相关技术",
-  srcDir: "./",
+  srcDir: "./docs",
   head: [
     ["link", { rel: "icon", href: "/favicon.ico" }],
     [
@@ -49,23 +49,23 @@ export default defineConfig({
       {
         text: "大前端",
         items: [
-          { text: "大前端学习笔记", link: "/bigfed_notes_vp/" },
-          { text: "大前端技术导航", link: "/bigfed_nav_vp/" },
-          { text: "大前端Serverless专题", link: "/bigfed_serverless_vp/" },
+          { text: "大前端学习笔记", link: "/bigfed_notes_vp/index.html" },
+          { text: "大前端技术导航", link: "/bigfed_nav_vp/index.html" },
+          { text: "大前端Serverless专题", link: "/bigfed_serverless_vp/index.html" },
         ],
       },
       {
         text: "大数智",
         items: [
-          { text: "大数智学习笔记", link: "/bigdata_notes_vp/" },
-          { text: "大数智技术导航", link: "/bigdata_nav_vp/" },
-          { text: "大数智办公自动化专题", link: "/bigdata_automation_vp/" },
+          { text: "大数智学习笔记", link: "/bigdata_notes_vp/index.html" },
+          { text: "大数智技术导航", link: "/bigdata_nav_vp/index.html" },
+          { text: "大数智办公自动化专题", link: "/bigdata_automation_vp/index.html" },
         ],
       },
       {
         text: "软技能",
         items: [
-          { text: "软技能学习笔记", link: "/softskill_notes_vp/" },
+          { text: "软技能学习笔记", link: "/softskill_notes_vp/index.html" },
         ],
       },
       {
