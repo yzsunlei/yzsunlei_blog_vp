@@ -12,6 +12,7 @@ hero:
     - theme: brand
       text: 欢迎来访
       link: /bigfed_notes_vp/index.html
+      target: blank
     # - theme: alt
     #   text: API Examples
     #   link: /api-examples
