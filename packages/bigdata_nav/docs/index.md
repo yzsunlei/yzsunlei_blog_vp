@@ -1,16 +1,16 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
-title: 小磊哥er的大前端技术导航-小磊哥er的博客
+title: 小磊哥er的大数智技术导航-小磊哥er的博客
 titleTemplate: false
 
 hero:
-  name: "大前端技术导航"
-  # text: "大前端技术导航"
+  name: "大数智技术导航"
+  # text: "大数智技术导航"
   tagline: 框架工具、学习教程、进阶路线
   image:
     src: index.png
-    alt: 大前端技术导航
+    alt: 大数智技术导航
   actions:
     - theme: brand
       text: 快来看看
@@ -22,7 +22,7 @@ hero:
 
 features:
   - title: 框架工具
-    details: Vue3、Koa、Echarts、RxJS
+    details: Anaconda、Virtualenv、Jupyter、Flask
     link: /
     linkText: 点击去看看
     target: blank
