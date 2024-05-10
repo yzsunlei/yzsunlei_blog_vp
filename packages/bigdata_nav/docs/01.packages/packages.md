@@ -1,77 +1,79 @@
+# 框架类库
+
 <h3 name="web">网页开发</h3>
 
-| [Django](./) | [Flask](./) | [Tornado](./) | [Pyramid](./) |
+| [Django](/) | [Flask](/) | [Tornado](/) | [Pyramid](/) |
 | :------: | :------: | :------: | :------: |
 | 一点介绍 | 一点介绍 | 一点介绍 | 一点介绍 |
 
 
 <h3 name="spider">爬虫开发</h3>
 
-| [Scrapy](./) | [PySpider](./) | [Selenium](./) | [Requests](./) |
+| [Scrapy](/) | [PySpider](/) | [Selenium](/) | [Requests](/) |
 | :------: | :------: | :------: | :------: |
 | 一点介绍 | 一点介绍 | 一点介绍 | 一点介绍 |
 
 
-| [BeautifulSoup](./) | [PyQuery](./) | [Urllib2](./) | [MechanicalSoup](./) |
+| [BeautifulSoup](/) | [PyQuery](/) | [Urllib2](/) | [MechanicalSoup](/) |
 | :------: | :------: | :------: | :------: |
 | 一点介绍 | 一点介绍 | 一点介绍 | 一点介绍 |
 
 
 <h3 name="data">数据开发</h3>
 
-| [NumPy](./) | [Pandas](./) | [Matplotlib](./) | [Seaborn](./) |
+| [NumPy](/) | [Pandas](/) | [Matplotlib](/) | [Seaborn](/) |
 | :------: | :------: | :------: | :------: |
 | 一点介绍 | 一点介绍 | 一点介绍 | 一点介绍 |
 
 
 <h3 name="office">办公处理</h3>
 
-| [XlsxWriter](./) | [Xlrd](./) | [OpenPyXL](./) | [Xlwt](./) |
+| [XlsxWriter](/) | [Xlrd](/) | [OpenPyXL](/) | [Xlwt](/) |
 | :------: | :------: | :------: | :------: |
 | 一点介绍 | 一点介绍 | 一点介绍 | 一点介绍 |
 
 
 <h3 name="media">媒体处理</h3>
 
-| [OpenCV](./) | [Pillow](./) | [MoviePy](./) | [Pydub](./) |
+| [OpenCV](/) | [Pillow](/) | [MoviePy](/) | [Pydub](/) |
 | :------: | :------: | :------: | :------: |
 | 一点介绍 | 一点介绍 | 一点介绍 | 一点介绍 |
 
-| [PyAV](./) | [FFmpeg-python](./) | [imageio-ffmepg](./) | [Scikit-video](./) |
+| [PyAV](/) | [FFmpeg-python](/) | [imageio-ffmepg](/) | [Scikit-video](/) |
 | :------: | :------: | :------: | :------: |
 | 一点介绍 | 一点介绍 | 一点介绍 | 一点介绍 |
 
 
-| [Aubio](./) | [Librosa](./) |
+| [Aubio](/) | [Librosa](/) |
 | :------: | :------: |
 | 一点介绍 | 一点介绍 |
 
 
 <h3 name="push">营销自动化</h3>
 
-| [poplib](./) | [smtplib](./) | [yagmail](./) | [IMAPClient](./) |
+| [poplib](/) | [smtplib](/) | [yagmail](/) | [IMAPClient](/) |
 | :------: | :------: | :------: | :------: |
 | 一点介绍 | 一点介绍 | 一点介绍 | 一点介绍 |
 
-| [pymailq](./) | [twilio](./) | [yunpian-sdk](./) | [qcloudsms_py](./) |
+| [pymailq](/) | [twilio](/) | [yunpian-sdk](/) | [qcloudsms_py](/) |
 | :------: | :------: | :------: | :------: |
 | 一点介绍 | 一点介绍 | 一点介绍 | 一点介绍 |
 
-| [aliyun-python-sdk-dysmsapi](./) | [itcast](./) | [wxpy](./) | [WeRoBot](./) |
+| [aliyun-python-sdk-dysmsapi](/) | [itcast](/) | [wxpy](/) | [WeRoBot](/) |
 | :------: | :------: | :------: | :------: |
 | 一点介绍 | 一点介绍 | 一点介绍 | 一点介绍 |
 
-| [wechaty](./) | [wxpusher](./) |
+| [wechaty](/) | [wxpusher](/) |
 | :------: | :------: |
 | 一点介绍 | 一点介绍 |
 
 <h3 name="ai">人工智能</h3>
 
-| [Keras](./) | [Pytorch](./) | [NLTK](./) | [TensorFlow](./) |
+| [Keras](/) | [Pytorch](/) | [NLTK](/) | [TensorFlow](/) |
 | :------: | :------: | :------: | :------: |
 | 一点介绍 | 一点介绍 | 一点介绍 | 一点介绍 |
 
 
-| [Theano](./) | [Scikit-learn](./) | [Gensim](./) | [CNTK](./) |
+| [Theano](/) | [Scikit-learn](/) | [Gensim](/) | [CNTK](/) |
 | :------: | :------: | :------: | :------: |
 | 一点介绍 | 一点介绍 | 一点介绍 | 一点介绍 |

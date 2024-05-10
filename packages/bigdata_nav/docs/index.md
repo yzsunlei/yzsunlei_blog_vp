@@ -8,9 +8,9 @@ hero:
   name: "大数智技术导航"
   # text: "大数智技术导航"
   tagline: 框架工具、学习教程、进阶路线
-  image:
-    src: index.png
-    alt: 大数智技术导航
+  # image:
+  #   src: index.png
+  #   alt: 大数智技术导航
   actions:
     - theme: brand
       text: 快来看看
@@ -22,8 +22,18 @@ hero:
 
 features:
   - title: 框架工具
-    details: Anaconda、Virtualenv、Jupyter、Flask
-    link: /
+    details: 框架类库、工具资源、组织社区
+    link: /01.packages/packages.html
+    linkText: 点击去看看
+    target: blank
+  - title: 学习教程
+    details: 书籍、课程、报告
+    link: /02.courses/books.html
+    linkText: 点击去看看
+    target: blank
+  - title: 进阶路线
+    details: 成长、进阶
+    link: /03.guides/index.html
     linkText: 点击去看看
     target: blank
 
