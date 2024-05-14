@@ -86,7 +86,7 @@ export default defineConfig({
     sidebar: [...categories],
 
     footer: {
-      copyright: "MIT Licensed | Copyright © 2024-present 小磊哥er",
+      copyright: "MIT Licensed | Copyright © 2024-present 小磊哥er ｜ <a href='https://beian.miit.gov.cn/' target='_blank'>鄂ICP备14015590号-8</a>",
     },
   },
 });
