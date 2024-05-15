@@ -5,7 +5,7 @@ title: 小磊哥er的软技能学习笔记-小磊哥er的博客
 titleTemplate: false
 
 hero:
-  name: "软技能"
+  name: "软技能学习笔记"
   # text: "软技能"
   tagline: 职场、情感、精神、思维、认知
   image:

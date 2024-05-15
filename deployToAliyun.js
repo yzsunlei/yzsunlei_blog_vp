@@ -1,5 +1,5 @@
 const OSS = require('ali-oss')
-const ossConfig = require('../../ossConfig')
+const ossConfig = require('./ossConfig')
 const fs = require('fs');
 const path = require('path');
 
@@ -52,7 +52,7 @@ const getAllFile = (dir) => {
 }
 
 const sourceDir = 'dist'
-const targetDir = "bigfed_nav_vp"
+const targetDir = "/"
 getAllFile(sourceDir).then((files) => {
   putOss(sourceDir, targetDir, files);
 })

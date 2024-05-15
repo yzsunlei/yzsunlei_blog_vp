@@ -5,7 +5,7 @@ title: 小磊哥er的大前端学习笔记-小磊哥er的博客
 titleTemplate: false
 
 hero:
-  name: "大前端"
+  name: "大前端学习笔记"
   # text: "大前端"
   tagline: web、h5、mp、android、ios、desktop、iot
   image:

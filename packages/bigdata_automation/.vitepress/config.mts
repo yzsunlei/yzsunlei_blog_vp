@@ -33,6 +33,7 @@ export default defineConfig({
   title: "小磊哥er的办公自动化专题",
   description: "小磊哥er的大数智办公自动化专题",
   srcDir: "./docs",
+  outDir: "dist",
   head: [
     ["link", { rel: "icon", href: "/favicon.ico" }],
     [

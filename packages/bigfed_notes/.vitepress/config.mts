@@ -33,6 +33,7 @@ export default defineConfig({
   title: "小磊哥er的大前端学习笔记",
   description: "小磊哥er的大前端学习笔记",
   srcDir: "./docs",
+  outDir: "dist",
   head: [
     ["link", { rel: "icon", href: "/favicon.ico" }],
     [

@@ -5,7 +5,7 @@ title: 小磊哥er的大数智学习笔记-小磊哥er的博客
 titleTemplate: false
 
 hero:
-  name: "大数智"
+  name: "大数智学习笔记"
   # text: "大前端"
   tagline: python、excel、sql、hadoop、ai、aigc
   image:

@@ -1,10 +1,12 @@
 {
   "scripts": {
+    "deploy": "node deployToAliyun.js",
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"
   },
-  "devDependencies": {
+  "dependencies": {
+    "ali-oss": "^6.17.1",
     "vitepress": "^1.1.4"
   }
 }

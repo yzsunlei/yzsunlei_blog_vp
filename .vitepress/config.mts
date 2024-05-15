@@ -31,6 +31,7 @@ export default defineConfig({
   title: "小磊哥er的博客",
   description: "专注于大前端和大数智相关技术",
   srcDir: "./docs",
+  outDir: "dist",
   head: [
     ["link", { rel: "icon", href: "/favicon.ico" }],
     [

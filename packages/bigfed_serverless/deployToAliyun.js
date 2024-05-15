@@ -1,5 +1,5 @@
 const OSS = require('ali-oss')
-const ossConfig = require('./ossConfig')
+const ossConfig = require('../../ossConfig')
 const fs = require('fs');
 const path = require('path');
 
@@ -51,8 +51,8 @@ const getAllFile = (dir) => {
   }
 }
 
-const sourceDir = 'docs/.vuepress/dist'
-const targetDir = "bigfed_serverless"
+const sourceDir = 'dist'
+const targetDir = "bigfed_serverless_vp"
 getAllFile(sourceDir).then((files) => {
   putOss(sourceDir, targetDir, files);
 })
