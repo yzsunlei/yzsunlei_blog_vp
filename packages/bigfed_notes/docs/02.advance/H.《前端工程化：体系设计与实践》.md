@@ -4,12 +4,12 @@ description: 《前端工程化：体系设计与实践》精读笔记，大前�
 keywords: 《前端工程化：体系设计与实践》精读笔记，大前端学习笔记，小磊哥er的博客
 --- 
 
-## 《前端工程化：体系设计与实践》精读笔记
+# 《前端工程化：体系设计与实践》精读笔记
 
 ### 写在前面
 - 书籍介绍：前端工程化包含一系列规范和流程，其可提升前端工程师的工作效率，加快Web开发迭代速度，是现在前端开发领域中非常重要的一环。这本书系统、全面地介绍了前端工程体系的各个环节，包括设计要点和实践经验。
 - 我的简评：前端工程化本身是个大话题，涉及的内容很多。但感觉这本书讲得有点简略，好多只是提提而已，不过对于全面了解和实践前端工程化还是有点帮助的。
-- ！！福利：文末有pdf书籍、笔记思维导图、随书代码打包下载地址哦
+- ！！福利：文末有笔记思维导图、随书资料打包等下载地址哦
 
 ### 第一章 前端工程简史
 - 1.1.前端工程师的基本素养：1. 从最初的重交互/UI，轻 JavaScript 的开发模式，到交互、UI、逻辑一把抓，再到“大前端”的服务器端、客户端全掌控，前端工程师的工作内容和工作职责不断扩宽；2. 前端工程师的技能栈：硬技能（HTML/CSS/JavaScript）、软技能（用户体验）、 扩展技能：Node.js）
@@ -55,5 +55,6 @@ keywords: 《前端工程化：体系设计与实践》精读笔记，大前端�
 
 ### 写在后面
 - pdf书籍、笔记思维导图、随书代码打包下载地址：[https://pan.baidu.com/s/11FE4WpvhASeljLS0HS_lOg(提取码：k38h)](https://pan.baidu.com/s/11FE4WpvhASeljLS0HS_lOg)
-- 思维导图在线查看：[点击打开](/attachment/H.《前端工程化：体系设计与实践》.svg)
-- 得到电子书地址：[点击阅读](https://www.dedao.cn/eBook/Z1GDBjp8o9nDz1NZyd5MXvBj6RKEVwNp6yWAp4aGOkJmYQrLbP7e2glqxl9qNPeX)
+- 思维导图在线查看：[点击打开](/attachment/H.《前端工程化：体系设计与实践》.svg){target="_blank"}
+- 得到电子书地址：[点击阅读](https://www.dedao.cn/ebook/reader?id=Z1GDBjp8o9nDz1NZyd5MXvBj6RKEVwNp6yWAp4aGOkJmYQrLbP7e2glqxl9qNPeX)
+- 京东纸质书地址：[点击购买](https://u.jd.com/kbPzJBA)

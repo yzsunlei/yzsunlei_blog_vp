@@ -4,12 +4,12 @@ description: 《DevOps和自动化运维实践》精读笔记，大前端学习�
 keywords: 《DevOps和自动化运维实践》精读笔记，大前端学习笔记，小磊哥er的博客
 --- 
 
-## 《DevOps和自动化运维实践》精读笔记
+# 《DevOps和自动化运维实践》精读笔记
 
 ### 写在前面
 - 书籍介绍：本书涉及大量的DevOps及自动化运维知识点和专业术语，全书共分8章，分别介绍了DevOps与自动化运维在运维中的意义和存在的必要性、生产环境下的Shell脚本、Python在DevOps与自动化运维中的应用、搭建自动化分布式虚拟环境的Vagrant、自动化运维工具Farbic、分布式自动化运维工具Ansible、自动化配置管理工具SaltStack，以及自动化运维中的后续思考等内容。
 - 我的简评：暂无
-- ！！福利：文末有pdf书籍、笔记思维导图、随书代码打包下载地址哦
+- ！！福利：文末有笔记思维导图、随书资料打包等下载地址哦
 
 ### 第1章 DevOps与自动化运维第意义
 - 1. DevOps（英文Development和Operations的组合）是一组过程、方法与系统的统称，用于促进开发（应用程序/软件工程）、技术运营和质量保障部门之间的沟通、协作与整合。
@@ -340,6 +340,7 @@ keywords: 《DevOps和自动化运维实践》精读笔记，大前端学习笔�
 - 4. 分布式队列管理Cerely简介：1. Celery是一个基于Python开发的分布式异步消息任务队列，其可以有助于轻松地实现任务的异步处理；2. Celery的优点：简单；高可用；快速；灵活；3. Celery的默认设置就能满足基本的要求。Worker以Pool模式启动，默认大小为CPU核心数量，序列化机制默认是pickle，但也可以指定为JSON。
 
 ### 写在后面
-- pdf书籍、笔记思维导图、随书代码打包下载地址：暂无，后面补上
-- 思维导图在线查看：[点击打开](/attachment/L.《DevOps和自动化运维实践》_余洪春_201810.svg)
-- 得到电子书地址：[点击阅读](https://www.dedao.cn/eBook/Z1GDBjp8o9nDz1NZyd5MXvBj6RKEVwNqlK3Ap4aGOkJmYQrLbP7e2glqxl9qNPeX)
+- pdf书籍、笔记思维导图、随书代码打包下载地址：暂无
+- 思维导图在线查看：[点击打开](/attachment/L.《DevOps和自动化运维实践》_余洪春_201810.svg){target="_blank"}
+- 得到电子书地址：[点击阅读](https://www.dedao.cn/ebook/reader?id=Z1GDBjp8o9nDz1NZyd5MXvBj6RKEVwNqlK3Ap4aGOkJmYQrLbP7e2glqxl9qNPeX)
+- 京东纸质书地址：[点击购买](https://u.jd.com/kiSmWJa)

@@ -4,12 +4,12 @@ description: 《JavaScript ES6函数式编程入门经典》精读笔记，大�
 keywords: 《JavaScript ES6函数式编程入门经典》精读笔记，大前端学习笔记，小磊哥er的博客
 --- 
 
-## 《JavaScript ES6函数式编程入门经典》精读笔记
+# 《JavaScript ES6函数式编程入门经典》精读笔记
 
 ### 写在前面
 - 书籍介绍：使用JavaScript ES6带你学习函数式编程。你将学习柯里化、偏函数、高阶函数以及Monad等概念。
 - 我的简评：作为前端，深入理解函数式编程的理念对以后的学习和工作大有裨益，这本书用ES6来解说函数式编程，值得一读。
-- ！！福利：文末有pdf书籍、笔记思维导图、随书代码打包下载地址哦
+- ！！福利：文末有笔记思维导图、随书资料打包等下载地址哦
 
 ### 第一章 函数式编程简介
 #### 1.1.什么是函数式编程？为何它重要
@@ -185,5 +185,6 @@ keywords: 《JavaScript ES6函数式编程入门经典》精读笔记，大前�
 
 ### 写在后面
 - pdf书籍、笔记思维导图、随书代码打包下载地址：[https://pan.baidu.com/s/1Aa6raIpJKb34Rtz2lMg-fA(提取码：5ry6)](https://pan.baidu.com/s/1Aa6raIpJKb34Rtz2lMg-fA)
-- 思维导图在线查看：[点击打开](/attachment/E.《JavaScript_ES6函数式编程入门经典》_Anto_Aravinth_梁宵.svg)
-- 得到电子书地址：无
+- 思维导图在线查看：[点击打开](/attachment/E.《JavaScript_ES6函数式编程入门经典》_Anto_Aravinth_梁宵.svg){target="_blank"}
+- 得到电子书地址：暂无
+- 京东纸质书地址：[点击购买](https://u.jd.com/kbSouXJ)

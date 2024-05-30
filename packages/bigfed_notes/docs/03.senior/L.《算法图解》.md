@@ -4,12 +4,12 @@ description: 《算法图解》精读笔记，大前端学习笔记，小磊哥e
 keywords: 《算法图解》精读笔记，大前端学习笔记，小磊哥er的博客
 --- 
 
-## 《算法图解》精读笔记
+# 《算法图解》精读笔记
 
 ### 写在前面
 - 书籍介绍：本书示例丰富，图文并茂，以让人容易理解的方式阐释了算法，旨在帮助程序员在日常项目中更好地发挥算法的能量。
 - 我的简评：这本书纯粹讲算法，写作方式挺不过，让你读完并不会感觉算法是很枯燥的东西，反而会觉得算法相当有趣。
-- ！！福利：文末有pdf书籍、笔记思维导图、随书代码打包下载地址哦
+- ！！福利：文末有笔记思维导图、随书资料打包等下载地址哦
 
 ### 第一章 算法简介
 - 1.1. 二分查找的速度比简单查找快得多
@@ -75,5 +75,6 @@ keywords: 《算法图解》精读笔记，大前端学习笔记，小磊哥er�
 
 ### 写在后面
 - pdf书籍、笔记思维导图、随书代码打包下载地址：[https://pan.baidu.com/s/1HTuiD7c3JKyoSqanT1iDqA(提取码：yocb)](https://pan.baidu.com/s/1HTuiD7c3JKyoSqanT1iDqA)
-- 思维导图在线查看：[点击打开](/attachment/L.《算法图解》_袁国忠译_201703.svg)
-- 得到电子书地址：[点击阅读](https://www.dedao.cn/eBook/bODoM61kAj9Rql84gzG5nVNZopXKY3D8eq3JLrBmEDv2QPMOyx7a6e1dbPQj2Zdm)
+- 思维导图在线查看：[点击打开](/attachment/L.《算法图解》_袁国忠译_201703.svg){target="_blank"}
+- 得到电子书地址：[点击阅读](https://www.dedao.cn/ebook/reader?id=bODoM61kAj9Rql84gzG5nVNZopXKY3D8eq3JLrBmEDv2QPMOyx7a6e1dbPQj2Zdm)
+- 京东纸质书地址：[点击购买](https://u.jd.com/kzPGQ7k)

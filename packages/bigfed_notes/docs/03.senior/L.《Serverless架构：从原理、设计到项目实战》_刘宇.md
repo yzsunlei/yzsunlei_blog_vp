@@ -4,12 +4,12 @@ description: 《Serverless架构：从原理、设计到项目实战》精读笔
 keywords: 《Serverless架构：从原理、设计到项目实战》精读笔记，大前端学习笔记，小磊哥er的博客
 --- 
 
-## 《Serverless架构：从原理、设计到项目实战》精读笔记
+# 《Serverless架构：从原理、设计到项目实战》精读笔记
 
 ### 写在前面
 - 书籍介绍：本书通过对Serverless基础的介绍、对相关规范和标准的描述，对架构、应用的讲解与阐述，为读者提供相对客观和完整的学习资料及文档资料；通过网站后端、监控告警、大数据与人工智能、物联网与高可用服务等不同场景的应用实例，以及简单博客系统的建设与基于人工智能的相册小程序系统的建设等完整项目，为读者提供更多的灵感与启发。
 - 我的简评：目前Serverless是很火的一个东西，已经有不少公司尝试使用serverless来提升研发效能，相应的，它涉及的知识点比较多，建议研究一下。
-- ！！福利：文末有pdf书籍、笔记思维导图、随书代码打包下载地址哦
+- ！！福利：文末有笔记思维导图、随书资料打包等下载地址哦
 
 ### 1.	第1章 初识Serverless
 
@@ -95,5 +95,6 @@ keywords: 《Serverless架构：从原理、设计到项目实战》精读笔记
 
 ### 写在后面
 - pdf书籍、笔记思维导图、随书代码打包下载地址：[https://pan.baidu.com/s/1jopDlJRUkNXoPovX8jgSug(提取码：i9wx)](https://pan.baidu.com/s/1jopDlJRUkNXoPovX8jgSug)
-- 思维导图在线查看：[点击打开](/attachment/L.《Serverless架构：从原理、设计到项目实战》.svg)
-- 得到电子书地址：[点击阅读](https://www.dedao.cn/eBook/5kMLgX2vKGy7x5M8YRoDQbLgqkEeAw257y3BNn2r6ljVPO1mX9ad4JZpzZn1RbeE)
+- 思维导图在线查看：[点击打开](/attachment/L.《Serverless架构：从原理、设计到项目实战》.svg){target="_blank"}
+- 得到电子书地址：[点击阅读](https://www.dedao.cn/ebook/reader?id=5kMLgX2vKGy7x5M8YRoDQbLgqkEeAw257y3BNn2r6ljVPO1mX9ad4JZpzZn1RbeE)
+- 京东纸质书地址：[点击购买](https://u.jd.com/kbSFMeB)

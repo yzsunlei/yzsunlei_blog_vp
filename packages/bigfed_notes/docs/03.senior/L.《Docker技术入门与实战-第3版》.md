@@ -4,12 +4,12 @@ description: 《Docker技术入门与实战（第三版）》精读笔记，大�
 keywords: 《Docker技术入门与实战（第三版）》精读笔记，大前端学习笔记，小磊哥er的博客
 --- 
 
-## 《Docker技术入门与实战（第三版）》精读笔记
+# 《Docker技术入门与实战（第三版）》精读笔记
 
 ### 写在前面
 - 书籍介绍：本书从Docker基本原理开始，深入浅出地讲解Docker的构建与操作，内容系统全面，可帮助开发人员、运维人员快速部署Docker应用。
-- 我的简评：暂无
-- ！！福利：文末有pdf书籍、笔记思维导图、随书代码打包下载地址哦
+- 我的简评：使用Docker来部署应用确实很方便，特别推荐给喜欢玩nodejs的前端朋友们。本书从理论到实践，读完学到了挺多。
+- ！！福利：文末有笔记思维导图、随书资料打包等下载地址哦
 
 ###	第一章 初识Docker
 
@@ -315,7 +315,7 @@ keywords: 《Docker技术入门与实战（第三版）》精读笔记，大前�
 ####	13.4.Elasticsearch
 13.5.1.	Elasticsearch 是基于 Lucene 的开源搜索服务（ Java 实现） 。它是分布式、多租户的全文搜索引擎，支持 RESTful Web 接口 。Elasticsearch 支持实时分布式数据存储和分析查询功能，可以轻松扩展到上百台服务器，同时支持处理 PB 级结构化或非结构化数据 。
 
-#### 13.6.	实际上，摩尔定律的失效，必将导致越来越多的复杂任务必须采用分布式架构进行处 理。
+#### 13.6.	实际上，摩尔定律的失效，必将导致越来越多的复杂任务必须采用分布式架构进行处理。
 
 ###	第十四章 编程开发
 - 14.1.C/C++
@@ -337,6 +337,7 @@ keywords: 《Docker技术入门与实战（第三版）》精读笔记，大前�
 -	16.4.容器与生产环境
 
 ### 写在后面
-- pdf书籍、笔记思维导图、随书代码打包下载地址：暂无，后面补上
-- 思维导图在线查看：[点击打开](/attachment/L.《Docker技术入门与实战（ 第3版）》_杨保华等_201809.svg)
-- 得到电子书地址：[点击阅读](https://www.dedao.cn/ebook/2BeEdA94ma8x6VX2zLjQBNq5dKveMw18Aa3JZPAO1lGbpRyYgonDEr97kMoLmlba)
+- pdf书籍、笔记思维导图、随书代码打包下载地址：暂无
+- 思维导图在线查看：[点击打开](/attachment/L.《Docker技术入门与实战（第3版）》_杨保华等_201809.svg){target="_blank"}
+- 得到电子书地址：[点击阅读](https://www.dedao.cn/ebook/reader?id=2BeEdA94ma8x6VX2zLjQBNq5dKveMw18Aa3JZPAO1lGbpRyYgonDEr97kMoLmlba)
+- 京东纸质书地址：[点击购买](https://u.jd.com/kQPz3mm)

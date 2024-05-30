@@ -4,12 +4,12 @@ description: 《React Native精解与实战》精读笔记，大前端学习笔�
 keywords: 《React Native精解与实战》精读笔记，大前端学习笔记，小磊哥er的博客
 --- 
 
-## 《React Native精解与实战》精读笔记
+# 《React Native精解与实战》精读笔记
 
 ### 写在前面
 - 书籍介绍：本书由架构师撰写，包含ReactNative框架底层原理，以及与iOS、Android混合开发案例，精选了大量实例代码，方便读者快速学习。主要内容分为两大部分，第1部分“入门”包括第1~9章，介绍ReactNative框架的基本原理与使用方法；第2部分“进阶”包括第10~15章，介绍ReactNative框架的高阶开发与App部署相关知识。附录部分剖析了ReactNative的源码，可帮助读者研究ReactNative底层本质，还分享了一些ReactNative框架学习的相关资源。
 - 我的简评：我是去年年底才开始学习使用React和React Native进行开发的，之前用的都是Vue的技术栈。这本书给我的感受就是逻辑清晰，通俗易懂，从基础入门到原理进阶，一一道来。但我想如果作者能再附带一个完整的项目实战可能效果更好，不过作者ParryQiu本人也写过很多技术教程以及录制了几套视频教程，有兴趣的可以去他个人的技术博客看看。
-- ！！福利：文末有pdf书籍、笔记思维导图、随书代码打包下载地址哦
+- ！！福利：文末有笔记思维导图、随书资料打包等下载地址哦
 
 ### 1.React Native简介
 
@@ -325,5 +325,6 @@ keywords: 《React Native精解与实战》精读笔记，大前端学习笔记�
 
 ### 写在后面
 - pdf书籍、笔记思维导图、随书代码打包下载地址：[https://pan.baidu.com/s/1y48Ngde8vmfFZvOLFhdECg(提取码：lj1b)](https://pan.baidu.com/s/1y48Ngde8vmfFZvOLFhdECg)
-- 思维导图在线查看：[点击打开](/attachment/J.《React_Native精解与实战》_邱鹏源.svg)
-- 得到电子书地址：[点击阅读](https://www.dedao.cn/eBook/V5R16yPmaYOMqGRAv82jkX4KDe175w7LyQ0rbx6pNgznl9VZPLJQyEBodb89mqoO)
+- 思维导图在线查看：[点击打开](/attachment/J.《React_Native精解与实战》_邱鹏源.svg){target="_blank"}
+- 得到电子书地址：[点击阅读](https://www.dedao.cn/ebook/reader?id=V5R16yPmaYOMqGRAv82jkX4KDe175w7LyQ0rbx6pNgznl9VZPLJQyEBodb89mqoO)
+- 京东纸质书地址：[点击购买](https://u.jd.com/kbPiDol)

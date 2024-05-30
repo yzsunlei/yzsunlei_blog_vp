@@ -4,12 +4,12 @@ description: 《移动WEB前端高级开发实践》精读笔记，大前端学�
 keywords: 《移动WEB前端高级开发实践》精读笔记，大前端学习笔记，小磊哥er的博客
 --- 
 
-## 《移动WEB前端高级开发实践》精读笔记
+# 《移动WEB前端高级开发实践》精读笔记
 
 ### 写在前面
 - 书籍介绍：《移动WEB前端高级开发实践》这本书的内容涵盖了移动Web前端开发中的各个关键技术环节。分别从HTML5、CSS3、JavaScript的ECMAScript5和ECMAScript6版本、移动端常用布局方案、MV*类新时代框架、预编译技术、性能优化、开发调试、混合式应用、单元测试、工程化等方面全面地还原了一线互联网公司Web前端技术栈。
 - 我的简评：这本书内容量很大，全面地总结了前端技术栈相关的各种技术环节的优秀实践。对于技术水平还处于低中级的朋友，推荐将这本书反复多读几遍，依照书中的介绍到的各个关键技术环节，来对自己的学习查漏补缺。
-- ！！福利：文末有pdf书籍、笔记思维导图、随书代码打包下载地址。觉得有用，记得点赞或收藏哦！
+- ！！福利：文末有笔记思维导图、随书资料打包等下载地址哦
 
 ### 第一章 初识移动Web前端
 - 移动Web开发属于前端开发中的一个子集，专指移动设备上的Web前端开发工作
@@ -411,5 +411,6 @@ keywords: 《移动WEB前端高级开发实践》精读笔记，大前端学习�
 
 ### 写在后面
 - pdf书籍、笔记思维导图、随书代码打包下载地址：[https://pan.baidu.com/s/1NwdZhaEoHvCkEJ8L4HvnDA(提取码：tmq7)](https://pan.baidu.com/s/1NwdZhaEoHvCkEJ8L4HvnDA)
-- 思维导图在线查看：[点击打开](/attachment/D.《移动WEB前端高级开发实践》_iKcamp.svg)
-- 得到电子书地址：[点击阅读](https://www.dedao.cn/ebook/donM9vjLM8m6d5YQ7lvJGVz2Xgaqb3po1bWnBRyejENkP1KZo9rD4OApxpxkY7Ke)
+- 思维导图在线查看：[点击打开](/attachment/D.《移动WEB前端高级开发实践》_iKcamp.svg){target="_blank"}
+- 得到电子书地址：[点击阅读](https://www.dedao.cn/ebook/reader?id=donM9vjLM8m6d5YQ7lvJGVz2Xgaqb3po1bWnBRyejENkP1KZo9rD4OApxpxkY7Ke)
+- 京东纸质书地址：暂无

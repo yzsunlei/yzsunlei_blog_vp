@@ -4,12 +4,12 @@ description: 《Koa和Node.js开发实战》精读笔记，大前端学习笔记
 keywords: 《Koa和Node.js开发实战》精读笔记，大前端学习笔记，小磊哥er的博客
 --- 
 
-## 《Koa和Node.js开发实战》精读笔记
+# 《Koa和Node.js开发实战》精读笔记
 
 ### 写在前面
 - 书籍介绍：本书系统讲解了在实战项目中使用Koa框架开发Web应用的流程和步骤。示例丰富、侧重实战，以完整的实战项目贯穿全部章节，并提供书中涉及的所有源码及部分章节的配套视频教程。
 - 我的简评：这本书是node.js方面实践性很强的书，有完整的项目实践，对于刚接触node.js的朋友想快速的去上手，读完这本书应该就差不多了。
-- ！！文末有pdf书籍、笔记思维导图、随书代码打包下载地址，需要请自取
+- ！！福利：文末有笔记思维导图、随书资料打包等下载地址哦
 
 ### 第一章 Node.js入门
 #### 1.1.Node.js介绍
@@ -205,5 +205,6 @@ keywords: 《Koa和Node.js开发实战》精读笔记，大前端学习笔记，
 
 ### 写在后面
 - pdf书籍、笔记思维导图、随书代码打包下载地址：[https://pan.baidu.com/s/17oqNU-kLcWYIcMupJqYVHA(提取码：1abm)](https://pan.baidu.com/s/17oqNU-kLcWYIcMupJqYVHA)
-- 思维导图在线查看：[点击打开](/attachment/K.《Koa与Node.js开发实战》_iKcamp_201901.svg)
-- 得到电子书地址：无
+- 思维导图在线查看：[点击打开](/attachment/K.《Koa与Node.js开发实战》_iKcamp_201901.svg){target="_blank"}
+- 得到电子书地址：暂无
+- 京东纸质书地址：暂无

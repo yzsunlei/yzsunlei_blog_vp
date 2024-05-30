@@ -4,12 +4,12 @@ description: 《图解HTTP》精读笔记，大前端学习笔记，小磊哥er�
 keywords: 《图解HTTP》精读笔记，大前端学习笔记，小磊哥er的博客
 --- 
 
-## 《图解HTTP》精读笔记
+# 《图解HTTP》精读笔记
 
 ### 写在前面
 - 书籍介绍：作者由HTTP协议的发展历史娓娓道来，严谨细致地剖析了HTTP协议的结构，列举诸多常见通信场景及实战案例，最后延伸到Web安全、最新技术动向等方面。本书的特色为在讲解的同时，辅以大量生动形象的通信图例，更好地帮助读者深刻理解HTTP通信过程中客户端与服务器之间的交互情况。
 - 我的简评：HTTP相关知识是做好前端必须要掌握的知识，本书简洁易懂，对于想快速学习HTTP相关的朋友，这本书绝对是首选。
-- ！！福利：文末有pdf书籍、笔记思维导图、随书代码打包下载地址哦
+- ！！福利：文末有笔记思维导图、随书资料打包等下载地址哦
 
 ### 第一章 了解Web及网络基础
 - 1.1.使用HTTP协议访问Web：从地址栏输入URL时，到Web页面如何呈现；Web是建立在HTTP协议上通信的
@@ -102,5 +102,6 @@ keywords: 《图解HTTP》精读笔记，大前端学习笔记，小磊哥er的�
 
 ### 写在后面
 - pdf书籍、笔记思维导图、随书代码打包下载地址：[https://pan.baidu.com/s/1a9aNJZYEl8bFw7NlIL46tQ(提取码：etua)](https://pan.baidu.com/s/1a9aNJZYEl8bFw7NlIL46tQ)
-- 思维导图在线查看：[点击打开](/attachment/E.《图解HTTP》于均良译_201405.svg)
-- 得到电子书地址：[点击阅读](https://www.dedao.cn/eBook/2BeEdA94ma8x6VX2zLjQBNq5dKveMw1RNY0JZPAO1lGbpRyYgonDEr97kMoLmlba)
+- 思维导图在线查看：[点击打开](/attachment/E.《图解HTTP》于均良译_201405.svg){target="_blank"}
+- 得到电子书地址：[点击阅读](https://www.dedao.cn/ebook/reader?id=2BeEdA94ma8x6VX2zLjQBNq5dKveMw1RNY0JZPAO1lGbpRyYgonDEr97kMoLmlba)
+- 京东纸质书地址：[点击购买](https://u.jd.com/kqS5GDO)

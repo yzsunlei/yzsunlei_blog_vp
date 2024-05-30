@@ -7,13 +7,13 @@ titleTemplate: false
 hero:
   name: "大前端学习笔记"
   # text: "大前端"
-  tagline: web、h5、mp、android、ios、desktop、iot
+  tagline: web、h5、mp、android、ios
   image:
     src: index.png
     alt: 大前端学习笔记
   actions:
     - theme: brand
-      text: 马上开始 →
+      text: 去看看 →
       link: /01.basis/A.《响应式Web设计:HTML5和CSS3实战》.html
       target: blank
     - theme: alt

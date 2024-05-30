@@ -4,12 +4,12 @@ description: 《响应式Web设计 HTML5和CSS3实战(第二版)》精读笔记�
 keywords: 《响应式Web设计 HTML5和CSS3实战(第二版)》精读笔记，大前端学习笔记，小磊哥er的博客
 --- 
 
-## 《响应式Web设计 HTML5和CSS3实战(第二版)》精读笔记
+# 《响应式Web设计 HTML5和CSS3实战(第二版)》精读笔记
 
 ### 写在前面
 - 书籍介绍：本书主要讲解了如何运用HTML5和CSS3来进行响应式Web设计，使页面的设计与开发根据用户行为以及设备环境(系统平台、屏幕尺寸、屏幕定向等)来进行相应的响应和调整。
 - 我的简评：响应式Web设计，个人从业经验上觉得应该是一个很庞大的话题，也是一个实用性很强的方面。作者在本书中讲的响应式的内容并不多，后面很多讲的都是HTML5与CSS3方面的内容，适合刚入门的前端朋友吧。
-- ！！福利：文末有pdf书籍、笔记思维导图、随书代码打包下载地址哦
+- ！！福利：文末有笔记思维导图、随书资料打包等下载地址哦
 
 ### 第一章 响应式Web设计基础
 -  响应式Web设计可以让一个网站同时适配多种设备和多个屏幕，可以让网站的布局和功能随用户的使用环境（屏幕大小、输入方式、设备/浏览器能力）而变化
@@ -369,5 +369,6 @@ keywords: 《响应式Web设计 HTML5和CSS3实战(第二版)》精读笔记，�
 
 ### 写在后面
 - pdf书籍、笔记思维导图、随书代码打包下载地址：[https://pan.baidu.com/s/1rZGRe0gzyEKiV9y5qmsgbg(提取码：fo49)](https://pan.baidu.com/s/1rZGRe0gzyEKiV9y5qmsgbg)
-- 思维导图在线查看：[点击打开](/attachment/A.《响应式Web设计_HTML5和CSS3实战》第二版_Ben_Frain_奇舞团.svg)
-- 得到电子书地址：[点击阅读](https://www.dedao.cn/eBook/VEDA2bKO27MKbRardAGJ1N4ln9BLVwg7nDw8ZQyXmYqg5PpkEjxovze6DB84dpj6)
+- 思维导图在线查看：[点击打开](/attachment/A.《响应式Web设计_HTML5和CSS3实战》第二版_Ben_Frain_奇舞团.svg){target="_blank"}
+- 得到电子书地址：[点击阅读](https://www.dedao.cn/ebook/reader?id=VEDA2bKO27MKbRardAGJ1N4ln9BLVwg7nDw8ZQyXmYqg5PpkEjxovze6DB84dpj6)
+- 京东纸质书地址：[点击购买](https://u.jd.com/k8SIFUS)

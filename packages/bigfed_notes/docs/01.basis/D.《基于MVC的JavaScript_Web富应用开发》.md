@@ -4,12 +4,12 @@ description: 《基于MVC的JavaScript Web富应用开发》精读笔记，大�
 keywords: 《基于MVC的JavaScript Web富应用开发》精读笔记，大前端学习笔记，小磊哥er的博客
 --- 
 
-## 《基于MVC的JavaScript Web富应用开发》精读笔记
+# 《基于MVC的JavaScript Web富应用开发》精读笔记
 
 ### 写在前面
 - 书籍介绍：这本书专注于讲述如何构建“优雅又不失高水准”的JavaScript应用，包括软件架构、模板引擎、框架和库、同服务器的消息通信等内容。
 - 我的简评：比较老的一本书，引用的一些框架和库现在已经不流行了，可以大致翻看一下。内容主要讲如何抽象js前端开发，让代码变得更清晰，具体采用的方法在js里面实现class、MVC、module等抽象，对提高编程思维帮助还是挺大的。
-- ！！福利：文末有pdf书籍、笔记思维导图、随书代码打包下载地址哦
+- ！！福利：文末有笔记思维导图、随书资料打包等下载地址哦
 
 ###	第1章 MVC和类
 
@@ -256,5 +256,6 @@ keywords: 《基于MVC的JavaScript Web富应用开发》精读笔记，大前�
 
 ### 写在后面
 - pdf书籍、笔记思维导图、随书代码打包下载地址：[https://pan.baidu.com/s/1CBWzkbFHsHvlR4nkApOGwQ(提取码：c8qy)](https://pan.baidu.com/s/1CBWzkbFHsHvlR4nkApOGwQ)
-- 思维导图在线查看：[点击打开](/attachment/D.《基于MVC的JavaScript_Web富应用开发》_Alex_MacCaw_李晶等.svg)
-- 得到电子书地址：无
+- 思维导图在线查看：[点击打开](/attachment/D.《基于MVC的JavaScript_Web富应用开发》_Alex_MacCaw_李晶等.svg){target="_blank"}
+- 得到电子书地址：暂无
+- 京东纸质书地址：[点击购买](https://u.jd.com/kqPGeKR)

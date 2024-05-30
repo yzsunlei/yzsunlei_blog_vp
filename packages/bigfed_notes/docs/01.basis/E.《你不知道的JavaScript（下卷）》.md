@@ -4,12 +4,12 @@ description: 《你不知道的JavaScript（下卷）》精读笔记，大前端
 keywords: 《你不知道的JavaScript（下卷）》精读笔记，大前端学习笔记，小磊哥er的博客
 --- 
 
-## 《你不知道的JavaScript（下卷）》精读笔记
+# 《你不知道的JavaScript（下卷）》精读笔记
 
 ### 写在前面
 - 书籍介绍：JavaScript这门语言简单易用，很容易上手，但其语言机制复杂微妙，即使是经验丰富的JavaScript开发人员，如果没有认真学习的话也无法真正理解。本套书直面当前JavaScript开发人员不求甚解的大趋势，深入理解语言内部的机制，全面介绍了JavaScript中常被人误解和忽视的重要知识点。
 - 我的简评：《你不知道的JavaScript》系列分上中下三卷，这里是下卷，主要讲解ES6相关的。该系列书籍本人觉得就上卷写的不错，中卷有些冗余，下卷讲ES6比较粗糙。不过有空翻一翻，还是多少有些收获。
-- ！！文末有pdf书籍、笔记思维导图、随书代码打包下载地址，需要请自取
+- ！！福利：文末有笔记思维导图、随书资料打包等下载地址哦
 
 ### 第1章 ES？现在与未来
 - 与ES5不同，ES6并不仅仅是为这个语言新增一组API。它包括一组新的语法形式，其中的一部分可能是要花些时间才能理解和熟悉的。它还包括各种各样的新的组织形式和操作各种数据类型的新的辅助API
@@ -320,5 +320,6 @@ keywords: 《你不知道的JavaScript（下卷）》精读笔记，大前端学
 
 ### 写在后面
 - pdf书籍、笔记思维导图、随书代码打包下载地址：[https://pan.baidu.com/s/1ei5ya29OlvFPlMV53I8ZXA(提取码：dcqo)](https://pan.baidu.com/s/1ei5ya29OlvFPlMV53I8ZXA)
-- 思维导图在线查看：[点击打开](/attachment/E.《你不知道的JavaScript（下卷）》_Kyle_Simpson_单业.svg)
-- 得到电子书地址：[点击阅读](https://www.dedao.cn/eBook/kQX7yD4MVoN52PDAnlRdzK6qvg8XEwbYO53ZJjBb7rO4ypxGa9LeQm1kYng9YzK5)
+- 思维导图在线查看：[点击打开](/attachment/E.《你不知道的JavaScript（下卷）》_Kyle_Simpson_单业.svg){target="_blank"}
+- 得到电子书地址：[点击阅读](https://www.dedao.cn/ebook/reader?id=kQX7yD4MVoN52PDAnlRdzK6qvg8XEwbYO53ZJjBb7rO4ypxGa9LeQm1kYng9YzK5)
+- 京东纸质书地址：[点击购买](https://u.jd.com/kzPiyfj)

@@ -4,12 +4,12 @@ description: 《图解TCP/IP》精读笔记，大前端学习笔记，小磊哥e
 keywords: 《图解TCP/IP》精读笔记，大前端学习笔记，小磊哥er的博客
 --- 
 
-## 《图解TCP/IP》精读笔记
+# 《图解TCP/IP》精读笔记
 
 ### 写在前面
 - 书籍介绍：书中讲解了网络基础知识、TCP/IP基础知识、数据链路、IP协议、IP协议相关技术、TCP与UDP、路由协议、应用协议、网络安全等内容，引导读者了解和掌握TCP/IP，营造一个安全的、使用放心的网络环境。
 - 我的简评：TCP/IP是网络方面的技术，是计算机专业的朋友必学课程，但对于非计算机的朋友读起来还是挺吃力的，不过想深入前端领域，此书还是推荐读一下。
-- ！！福利：文末有pdf书籍、笔记思维导图、随书代码打包下载地址哦
+- ！！福利：文末有笔记思维导图、随书资料打包等下载地址哦
 
 ### 第一章 网络基础知识
 - 1.1.计算机网络出现的背景：1. 大型通用计算机、超级计算机、小型机、个人电脑、工作站、便携式电脑以及如今的智能手机终端等都是这一过程的产物；2. 人们已不再局限于单机模式，而是将一个个计算机连接在一起，形成一个计算机网络；3. 计算机网络，根据规模可分为WAN（广域网）和LAN（局域网）；4. 社团成员、学校同窗之间可以通过邮件组、主页、BBS论坛相互联系，甚至可以通过网络日志、聊天室、即时通信以及SNS实现互联与信息互换
@@ -118,5 +118,6 @@ keywords: 《图解TCP/IP》精读笔记，大前端学习笔记，小磊哥er�
 
 ### 写在后面
 - pdf书籍、笔记思维导图、随书代码打包下载地址：[https://pan.baidu.com/s/1jopDlJRUkNXoPovX8jgSug(提取码：i9wx)](https://pan.baidu.com/s/1jopDlJRUkNXoPovX8jgSug)
-- 思维导图在线查看：[点击打开](/attachment/L.《图解TCP_IP_第5版》竹下隆史等_201307.svg)
-- 得到电子书地址：[点击阅读](https://www.dedao.cn/eBook/5kMLgX2vKGy7x5M8YRoDQbLgqkEeAw257y3BNn2r6ljVPO1mX9ad4JZpzZn1RbeE)
+- 思维导图在线查看：[点击打开](/attachment/L.《图解TCP_IP_第5版》竹下隆史等_201307.svg){target="_blank"}
+- 得到电子书地址：[点击阅读](https://www.dedao.cn/ebook/reader?id=5kMLgX2vKGy7x5M8YRoDQbLgqkEeAw257y3BNn2r6ljVPO1mX9ad4JZpzZn1RbeE)
+- 京东纸质书地址：[点击购买](https://u.jd.com/k8Pbtw7)

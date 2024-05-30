@@ -4,12 +4,12 @@ description: 《深入浅出Node.js》精读笔记，大前端学习笔记，小
 keywords: 《深入浅出Node.js》精读笔记，大前端学习笔记，小磊哥er的博客
 --- 
 
-## 《深入浅出Node.js》精读笔记
+# 《深入浅出Node.js》精读笔记
 
 ### 写在前面
 - 书籍介绍：本书由首章Node介绍为索引，涉及Node的各个方面，主要内容包含模块机制的揭示、异步I/O实现原理的展现、异步编程的探讨、内存控制的介绍、二进制数据Buffer的细节、Node中的网络编程基础、Node中的Web开发、进程间的消息传递、Node测试以及通过Node构建产品需要的注意事项。
 - 我的简评：这是一本难得的好书，这本书理论和实践结合的很好。如果你是一个纯前端的开发者，这本书可以读读开拓些视野，如果你是一个全栈的开发者，这本书作为入门和深入后端也很不错，推荐拜读。
-- ！！文末有pdf书籍、笔记思维导图、随书代码打包下载地址，需要请自取
+- ！！福利：文末有笔记思维导图、随书资料打包等下载地址哦
 
 ### 第一章 Node简介
 
@@ -330,5 +330,6 @@ keywords: 《深入浅出Node.js》精读笔记，大前端学习笔记，小磊
 
 ### 写在后面
 - pdf书籍、笔记思维导图、随书代码打包下载地址：[https://pan.baidu.com/s/1OhLjjtfffjX3hv2_Pw7AHQ(提取码：9m33)](https://pan.baidu.com/s/1OhLjjtfffjX3hv2_Pw7AHQ)
-- 思维导图在线查看：[点击打开](/attachment/K.《深入浅出Node.js》_仆灵.svg)
-- 得到电子书地址：[点击阅读](https://www.dedao.cn/eBook/V5R16yPmaYOMqGRAv82jkX4KDe175w7pYR0rbx6pNgznl9VZPLJQyEBodb89mqoO)
+- 思维导图在线查看：[点击打开](/attachment/K.《深入浅出Node.js》_仆灵.svg){target="_blank"}
+- 得到电子书地址：[点击阅读](https://www.dedao.cn/ebook/reader?id=V5R16yPmaYOMqGRAv82jkX4KDe175w7pYR0rbx6pNgznl9VZPLJQyEBodb89mqoO)
+- 京东纸质书地址：[点击购买](https://u.jd.com/kbPz5DK)

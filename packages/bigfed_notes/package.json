@@ -5,7 +5,7 @@
   "main": "index.js",
   "author": "yzsunlei",
   "scripts": {
-    "deploy": "node deployToAliyun.js",
+    "docs:deploy": "node deployToAliyun.js",
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"

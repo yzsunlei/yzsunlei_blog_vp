@@ -4,12 +4,12 @@ description: 《CSS世界》精读笔记，大前端学习笔记，小磊哥er�
 keywords: 《CSS世界》精读笔记，大前端学习笔记，小磊哥er的博客
 --- 
 
-## 《CSS世界》精读笔记
+# 《CSS世界》精读笔记
 
 ### 写在前面
 - 书籍介绍：本书从前端开发人员的需求出发，以“流”为线索，从结构、内容到美化装饰等方面，全面且深入地讲解前端开发人员必须了解和掌握的大量的CSS知识点。同时，作者结合多年的从业经验，通过大量的实战案例，详尽解析CSS的相关知识与常见问题。
 - 我的简评：《CSS世界》这本书颠覆了我对前端CSS的很多认知，说是在的，这本书读起来很烧脑，建议有一定CSS基础后再阅读。
-- ！！福利：文末有pdf书籍、笔记思维导图、随书代码打包下载地址哦
+- ！！福利：文末有笔记思维导图、随书资料打包等下载地址哦
 
 ###	第一章 概述
 
@@ -261,5 +261,6 @@ keywords: 《CSS世界》精读笔记，大前端学习笔记，小磊哥er的�
 
 ### 写在后面
 - pdf书籍、笔记思维导图、随书代码打包下载地址：[https://pan.baidu.com/s/1B9N5zFObIq4NU4QpSM5dZQ(提取码：lp46)](https://pan.baidu.com/s/1B9N5zFObIq4NU4QpSM5dZQ)
-- 思维导图在线查看：[点击打开](/attachment/B.《CSS世界》_张鑫旭.svg){:target="_blank"}
-- 得到电子书地址：[点击阅读](https://www.dedao.cn/eBook/V5R16yPmaYOMqGRAv82jkX4KDe175w771mwrbx6pNgznl9VZPLJQyEBodb89mqoO)
+- 思维导图在线查看：[点击打开](/attachment/B.《CSS世界》_张鑫旭.svg){target="_blank"}
+- 得到电子书地址：[点击阅读](https://www.dedao.cn/ebook/reader?id=V5R16yPmaYOMqGRAv82jkX4KDe175w771mwrbx6pNgznl9VZPLJQyEBodb89mqoO)
+- 京东纸质书地址：[点击购买](https://u.jd.com/kQP60VT)

@@ -4,12 +4,12 @@ description: 《深入浅出Webpack》精读笔记，大前端学习笔记，小
 keywords: 《深入浅出Webpack》精读笔记，大前端学习笔记，小磊哥er的博客
 --- 
 
-## 《深入浅出Webpack》精读笔记
+# 《深入浅出Webpack》精读笔记
 
 ### 写在前面
 - 书籍介绍：《深入浅出Webpack》对Webpack进行了全面讲解，涵盖了Webpack入门、配置、实战、优化、原理等方面的内容。其中，第1章讲解Webpack入门所涉及的知识；第2章详细讲解Webpack提供的常用配置项；第3章结合实际项目中的常见场景进行实践；第4章给出优化Webpack的优秀方案；第5章剖析了Webpack的原理，并讲解如何开发Plugin和Loader；附录汇总了常见的Loader、Plugin和Webpack的其他学习资源。除了深入讲解Webpack，本书还介绍了ES6、TypeScript、PostCSS、Prepack、离线缓存、单页应用、CDN等Web开发相关的技能
 - 我的简评：市面上出版的讲解Webpack的书籍不多，本人觉得是前端打包工具迭代的太快了。Webpack目前还是前端打包工具的首选，值得去学。《深入浅出Webpack》这本书对Webpack讲解的比较详细，总结的比较全面，通俗易懂，还有一个亮点就是每一章节都带有例子。总得来说，还是很不错的一本书。
-- ！！福利：文末有pdf书籍、笔记思维导图、随书代码打包下载地址哦
+- ！！福利：文末有笔记思维导图、随书资料打包等下载地址哦
 
 ### 第一章 入门
 
@@ -200,5 +200,6 @@ keywords: 《深入浅出Webpack》精读笔记，大前端学习笔记，小磊
 
 ### 写在后面
 - pdf书籍、笔记思维导图、随书代码打包下载地址：[https://pan.baidu.com/s/1EpM6KV5Lu6nmGJG_j3iI2w(提取码：yxn1)](https://pan.baidu.com/s/1EpM6KV5Lu6nmGJG_j3iI2w)
-- 思维导图在线查看：[点击打开](/attachment/H.《深入浅出Webpack》_吴浩麟_201801.svg)
-- 得到电子书地址：[点击阅读](https://www.dedao.cn/eBook/XOnaYG1qlM7amvGYerDZOy9JVnXL40B7z8WBkp1NKxoRdb86P2Q5AzgEj9vE5rDo)
+- 思维导图在线查看：[点击打开](/attachment/H.《深入浅出Webpack》_吴浩麟_201801.svg){target="_blank"}
+- 得到电子书地址：[点击阅读](https://www.dedao.cn/ebook/reader?id=XOnaYG1qlM7amvGYerDZOy9JVnXL40B7z8WBkp1NKxoRdb86P2Q5AzgEj9vE5rDo)
+- 京东纸质书地址：[点击购买](https://u.jd.com/k8SFc51)

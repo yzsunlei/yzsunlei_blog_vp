@@ -4,12 +4,12 @@ description: 《Electron实战：入门、进阶与性能优化》精读笔记�
 keywords: 《Electron实战：入门、进阶与性能优化》精读笔记，大前端学习笔记，小磊哥er的博客
 --- 
 
-## 《Electron实战：入门、进阶与性能优化》精读笔记
+# 《Electron实战：入门、进阶与性能优化》精读笔记
 
 ### 写在前面
 - 书籍介绍：本书以实战为导向，讲解了如何用Electron结合现代前端技术来开发桌面应用。不仅全面介绍了Electron入门需要掌握的功能和原理，而且还针对Electron开发中的重点和难点进行了重点讲解，旨在帮助读者实现快速进阶。
 - 我的简评：这本书内容量比较大，偏实践性的。对于需要使用Electron来做项目的可以精读一下，如果只是想了解Electron技术，粗略的翻看一下就好。
-- ！！福利：文末有pdf书籍、笔记思维导图、随书代码打包下载地址哦
+- ！！福利：文末有笔记思维导图、随书资料打包等下载地址哦
 
 ### 第1章 认识Electron
 #### 1.1.Electron的由来
@@ -292,6 +292,7 @@ keywords: 《Electron实战：入门、进阶与性能优化》精读笔记，�
 - 2. autoUpdater模块是根据package.json中的版本号来判断当前版本是否比服务器上的版本老的
 
 ### 写在后面
-- pdf书籍、笔记思维导图、随书代码打包下载地址：后面补上
-- 思维导图在线查看：[点击打开](/attachment/L.《Electron实战：入门、进阶与性能优化》.svg)
-- 得到电子书地址：[点击阅读](https://www.dedao.cn/ebook/detail?id=xGM6Evn5byxq2PnXBz71AjZaol6R8WJL5awOKpGkd4gmMLEJrYNQe9VvD8P4jLkK)
+- pdf书籍、笔记思维导图、随书代码打包下载地址：暂无
+- 思维导图在线查看：[点击打开](/attachment/L.《Electron实战：入门、进阶与性能优化》.svg){target="_blank"}
+- 得到电子书地址：[点击阅读](https://www.dedao.cn/ebook/reader?id=detail?id=xGM6Evn5byxq2PnXBz71AjZaol6R8WJL5awOKpGkd4gmMLEJrYNQe9VvD8P4jLkK)
+- 京东纸质书地址：[点击购买](https://u.jd.com/kzSoI8K)
