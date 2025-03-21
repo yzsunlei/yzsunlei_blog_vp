@@ -30,8 +30,8 @@ const scripts = jsScripts
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: "/bigfed_notes_vp/",
-  title: "小磊哥er的大前端学习笔记",
-  description: "小磊哥er的大前端学习笔记",
+  title: "小磊哥er的大前端学习笔记-小磊哥er的博客",
+  description: "大前端书籍，小磊哥er的大前端学习笔记，小磊哥er的博客",
   srcDir: "./docs",
   outDir: "dist",
   head: [
