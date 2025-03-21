@@ -15,9 +15,9 @@ export default [
       { text: '学习报告', link: '/02.courses/reports.html', target:'_blank' },
     ],
   },
-  {
-    text: "框架工具",
-    link: '/03.guides/index.html',
-    target:'_blank'
-  },
+  // {
+  //   text: "进阶路线",
+  //   link: '/03.guides/index.html',
+  //   target:'_blank'
+  // },
 ];

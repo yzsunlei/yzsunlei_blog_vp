@@ -31,11 +31,11 @@ features:
     link: /02.courses/books.html
     linkText: 点击去看看
     target: blank
-  - title: 进阶路线
-    details: 成长、进阶
-    link: /03.guides/index.html
-    linkText: 点击去看看
-    target: blank
+  # - title: 进阶路线
+  #   details: 成长、进阶
+  #   link: /03.guides/index.html
+  #   linkText: 点击去看看
+  #   target: blank
 
 ---
 
