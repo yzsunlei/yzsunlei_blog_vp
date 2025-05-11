@@ -10,12 +10,12 @@ hero:
   tagline: 专注于大前端和大数智相关技术
   actions:
     - theme: brand
-      text: 欢迎来访
+      text: 欢迎来访点击看笔记
       link: /bigfed_notes_vp/index.html
       target: blank
-    # - theme: alt
-    #   text: API Examples
-    #   link: /api-examples
+    - theme: alt
+      text: 欢迎使用博客AI Agent
+      link: http://www.yzsunlei.com/agent_vp/pages/agent-home.html
 
 features:
   - title: 大前端
