@@ -30,7 +30,7 @@ const scripts = jsScripts
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: "/bigfed_engineering_vp/",
-  title: "小磊哥er的大前端工程化专题 - 小磊哥er的博客",
+  title: "小磊哥er的大前端工程化专题",
   description: "大前端Engineering，小磊哥er的大前端Engineering专题，小磊哥er的博客",
   srcDir: "./docs",
   outDir: "dist",
@@ -41,7 +41,7 @@ export default defineConfig({
       {
         name: "keywords",
         content:
-          "大前端Engineering,小磊哥er的大前端Engineering专题,大前端技术博客,小磊哥er,小磊哥er的博客",
+          "大前端工程化,小磊哥er的大前端工程化专题,大前端技术博客,小磊哥er,小磊哥er的博客",
       },
     ],
     ...(scripts as any[]),

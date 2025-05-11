@@ -1,7 +1,7 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
-title: 小磊哥er的大前端Engineering专题-小磊哥er的博客
+title: 小磊哥er的大前端工程化专题-小磊哥er的博客
 titleTemplate: false
 
 hero:
@@ -10,7 +10,7 @@ hero:
   tagline: 大前端工程化，制定规范和流程提升开发效率
   image:
     src: index.png
-    alt: 大前端Engineering专题
+    alt: 大前端工程化专题
   actions:
     - theme: brand
       text: 快去看看
