@@ -1,0 +1,17 @@
+{
+  "name": "bigfed_engineering",
+  "version": "1.0.0",
+  "description": "小磊哥er的大前端工程化专题",
+  "main": "index.js",
+  "author": "yzsunlei",
+  "scripts": {
+    "docs:deploy": "node deployToAliyun.js",
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "dependencies": {
+    "ali-oss": "^6.17.1",
+    "vitepress": "^1.1.4"
+  }
+}
