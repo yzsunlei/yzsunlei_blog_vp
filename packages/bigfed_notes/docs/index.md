@@ -7,7 +7,7 @@ titleTemplate: false
 hero:
   name: "大前端学习笔记"
   # text: "大前端"
-  tagline: web、h5、mp、android、ios
+  tagline: web、h5、mp、app
   image:
     src: index.png
     alt: 大前端学习笔记

@@ -8,6 +8,9 @@ hero:
   name: "小磊哥er的博客"
   # text: "A VitePress Site"
   tagline: 专注于大前端和大数智相关技术
+  image:
+    src: index.png
+    alt: 小磊哥er的博客
   actions:
     - theme: brand
       text: 欢迎来访点击看笔记
